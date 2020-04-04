@@ -24,13 +24,14 @@ class SendMailable extends Mailable
     public function build()
     {
         $address = env('MAIL_FROM_ADDRESS');
-        $subject = 'Obrigado por se inscrever no Lend!';
+        $subject = 'Obrigado por se inscrever no Prime Drink!';
         $name = env('MAIL_FROM_NAME');
 
-        return $this->markdown('front.layouts.mail.register')
+        return $this->markdown('mail.register')
             ->from($address, $name)
             ->replyTo($address, $name)
             ->subject($subject)
             ->with([ 'name' => $this->data['toName'] ]);
+
     }
 }
