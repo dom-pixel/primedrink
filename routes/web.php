@@ -15,3 +15,11 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'Web\LandingPageController@home')->name('landingPage');
 Route::post('/send/email', 'Web\LandingPageController@mail')->name('sendRegister');
+
+Route::get('/login', 'Auth\LoginController@showLoginForm')->name('login');
+Route::post('/login', 'Auth\LoginController@login');
+Route::get('/logout', 'Auth\LoginController@logout')->name('logout');
+Route::get('/register', 'Auth\RegisterController@showRegistrationForm')->name('register');
+Route::post('/register', 'Auth\RegisterController@register');
+
+Route::get('/home', 'HomeController@index')->name('home');
