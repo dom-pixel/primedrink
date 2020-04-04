@@ -14,7 +14,7 @@
                             </div>
                         @endif
 
-                        <table class="table table-sm">
+                        <table class="table table-sm table-responsive">
                             <thead>
                             <tr>
                                 <th>#</th>
@@ -29,7 +29,7 @@
                                     <td>{{$subscription->id}}</td>
                                     <td>{{$subscription->name}}</td>
                                     <td>{{$subscription->email}}</td>
-                                    <td>{{$subscription->cell}}</td>
+                                    <td class="celular">{{$subscription->cell}}</td>
                                 </tr>
                             @endforeach
                             </tbody>

@@ -73,5 +73,9 @@
         @yield('content')
     </main>
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.0/jquery.mask.js"></script>
+<!-- scripts customizados -->
+<script type="text/javascript" src="{{ asset('front/masks.js') }}"></script>
 </body>
 </html>
