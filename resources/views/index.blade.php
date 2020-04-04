@@ -49,15 +49,12 @@
 </head>
 <body style="overflow: visible;">
 <div id="wrapper">
-
-
     <header class="header">
         <div class="container">
             <div class="row mb-5">
                 <div class="col-md-offset-1 col-md-10">
                     <nav class="navbar yamm navbar-default">
                         <div class="container-full">
-
                         </div>
                     </nav>
                 </div>
@@ -75,6 +72,29 @@
                     <form action="{{ route('sendRegister') }}" method="POST" data-toggle="validator" data-focus="false">
                         @csrf
                         <div class="content-form-home">
+                            <!-- Mensagem de sucesso no cadastro e envio de e-mail -->
+                            @if ($message = Session::get('success'))
+                                <div class="alert alert-info alert-block">
+                                    <button type="button" class="close" data-dismiss="alert">×</button>
+                                    <strong>{{ $message }}</strong>
+                                </div>
+                            @endif
+                        <!-- Mensagem de erro do envio de e-mail -->
+                            @if ($message = Session::get('error'))
+                                <div class="alert alert-danger alert-block">
+                                    <button type="button" class="close" data-dismiss="alert">×</button>
+                                    <strong>{{ $message }}</strong>
+                                </div>
+                            @endif
+                        <!-- Mensagem de erro do Subscription Request -->
+                            @if($errors->all())
+                                @foreach($errors->all() as $error)
+                                    <div class="alert alert-danger alert-block">
+                                        <button type="button" class="close" data-dismiss="alert">×</button>
+                                        <strong>{{ $error }}</strong>
+                                    </div>
+                                @endforeach
+                            @endif
                             <div>
                                 <span class="text-form-01">Cadastre sua distribuidora e decole!</span>
                             </div>
