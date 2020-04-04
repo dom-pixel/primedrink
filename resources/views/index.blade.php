@@ -121,7 +121,7 @@
                             <div class="m-t-20">
                                 <span class="text-form-03">Celular + DDD</span>
                                 <div>
-                                    <input class="form-control" type="text" name="cell"
+                                    <input class="form-control celular" type="text" name="cell"
                                            placeholder="Qual o Celular com DDD do dono da distribuidora?" required>
                                 </div>
                             </div>
@@ -652,9 +652,11 @@
     function closeNav() {
         document.getElementById("mySidenav").style.width = "0";
     }
-
-
 </script>
+<!-- scripts customizados -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.0/jquery.mask.js"></script>
+<!-- scripts customizados -->
+<script type="text/javascript" src="{{ asset('front/masks.js') }}"></script>
 
 
 </body>
