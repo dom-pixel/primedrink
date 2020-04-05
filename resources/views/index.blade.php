@@ -89,7 +89,7 @@
                     </div>
 
                     <div class="text-center m-t-5">
-                        <img style="width: 70px;" src="images/024.png">
+                        <img style="width: 70px;" src="{{asset('images/024.png')}}">
                     </div>
                 </div>
             </div>
@@ -197,7 +197,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <img style="width: 100%;" src="images/023.png">
+                    <img style="width: 100%;" src="{{asset('images/023.png')}}">
                 </div>
             </div>
         </div>
@@ -215,7 +215,8 @@
                                     <div class="item active">
                                         <div style="max-width: 380px; margin: auto;">
                                             <div>
-                                                <img style="width: 40px; display: inline;" src="images/004.png">
+                                                <img style="width: 40px; display: inline;"
+                                                     src="{{asset('images/004.png')}}">
 
                                                 <span class="text-info-visao">
                                                 VISÃO
@@ -404,7 +405,7 @@
                 <div class="col-md-6">
                     <div>
                         <div style="clear: both;">
-                            <img style="height: 30px; float: left;" src="images/009.png">
+                            <img style="height: 30px; float: left;" src="{{asset('images/009.png')}}'">
 
                             <span class="text-footer-1">
                             WHATSAPP - 09H00 - 18H00
@@ -420,7 +421,7 @@
 
                     <div class="m-t-30">
                         <div style="clear: both;">
-                            <img style="height: 30px; float: left;" src="images/008.png">
+                            <img style="height: 30px; float: left;" src="{{asset('images/008.png')}}">
 
                             <span class="text-footer-1">
                             QUERO FALAR POR E-MAIL!
@@ -436,7 +437,7 @@
 
                     <div class="m-t-30">
                         <div style="clear: both;">
-                            <img style="height: 30px; float: left;" src="images/010.png">
+                            <img style="height: 30px; float: left;" src="{{asset('images/010.png')}}">
 
                             <span class="text-footer-1">
                             SOCIALS NETWORK
@@ -446,19 +447,19 @@
 
                             <ul style="padding: 0; list-style: none; display: inline; margin-left: 15px;">
                                 <li style="display: inline;">
-                                    <img class="imgs-socials-footer" style="" src="images/013.png">
+                                    <img class="imgs-socials-footer" style="" src="{{asset('images/013.png')}}">
                                 </li>
 
                                 <li style="display: inline;">
-                                    <img class="imgs-socials-footer" style="" src="images/012.png">
+                                    <img class="imgs-socials-footer" style="" src="{{asset('images/012.png')}}">
                                 </li>
 
                                 <li style="display: inline;">
-                                    <img class="imgs-socials-footer" style="" src="images/011.png">
+                                    <img class="imgs-socials-footer" style="" src="{{asset('images/011.png')}}">
                                 </li>
 
                                 <li style="display: inline;">
-                                    <img class="imgs-socials-footer" style="" src="images/007.png">
+                                    <img class="imgs-socials-footer" style="" src="{{asset('images/007.png')}}">
                                 </li>
                             </ul>
                         </div>
@@ -477,7 +478,7 @@
                             </div>
 
                             <div class="m-t-5">
-                                <img style="" src="images/006.png">
+                                <img style="" src="{{asset('images/006.png')}}">
                             </div>
                         </div>
 
@@ -489,7 +490,7 @@
                             </div>
 
                             <div class="m-t-5">
-                                <img style="" src="images/006.png">
+                                <img style="" src="{{asset('images/006.png')}}">
                             </div>
                         </div>
 
@@ -501,7 +502,7 @@
                             </div>
 
                             <div class="m-t-5">
-                                <img style="" src="images/006.png">
+                                <img style="" src="{{asset('images/006.png')}}">
                             </div>
                         </div>
                     </div>
