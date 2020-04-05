@@ -1,68 +1,6 @@
-<!DOCTYPE html>
-<!-- saved from url=(0038)http://wemoga-001-site42.ftempurl.com/ -->
-<html>
+@extends('layouts.web.master')
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <meta name="keywords" content="">
-
-    <title>Prime Drink</title>
-
-    <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="images/favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
-
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-
-    <link rel="stylesheet" type="text/css" href="front/settings.css" media="screen"/>
-    <link rel="stylesheet" type="text/css" href="front/animate.css">
-    <link rel="stylesheet" type="text/css" href="front/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="front/carousel.css">
-    <link rel="stylesheet" type="text/css" href="front/bootstrap-select.css">
-    <link rel="stylesheet" type="text/css" href="front/jquery-ui.css">
-    <link rel="stylesheet" type="text/css" href="front/style.css">
-    <!-- COLORS -->
-    <link rel="stylesheet" type="text/css" href="front/custom.css">
-
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
-<body style="overflow: visible;">
-<div id="wrapper">
-    <header class="header">
-        <div class="container">
-            <div class="row mb-5">
-                <div class="col-md-offset-1 col-md-10">
-                    <nav class="navbar yamm navbar-default">
-                        <div class="container-full">
-                        </div>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </header>
-
-
+@section('content')
     <section class="section" id="section-001">
         <div class="container">
             <div class="row">
@@ -618,46 +556,4 @@
             </div>
         </div>
     </section>
-
-    <footer>
-        <div class="container">
-            <div class="row">
-
-            </div>
-        </div>
-    </footer>
-</div>
-
-<script src="front/jquery.min.js"></script>
-<script src="front/bootstrap.js"></script>
-<script src="front/retina.js"></script>
-<script src="front/parallax.js"></script>
-<script src="front/wow.js"></script>
-<script src="front/carousel.js"></script>
-<script src="front/custom.js"></script>
-
-<!-- SLIDER REV -->
-<script src="front/jquery.themepunch.tools.min.js"></script>
-<script src="front/jquery.themepunch.revolution.min.js"></script>
-
-<script src="front/jquery-ui.js"></script>
-<script src="front/jquery-ui-timepicker-addon.js"></script>
-<script src="front/bootstrap-select.js"></script>
-
-<script type="text/javascript">
-    function openNav() {
-        document.getElementById("mySidenav").style.width = "185px";
-    }
-
-    function closeNav() {
-        document.getElementById("mySidenav").style.width = "0";
-    }
-</script>
-<!-- scripts customizados -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.0/jquery.mask.js"></script>
-<!-- scripts customizados -->
-<script type="text/javascript" src="{{ asset('front/masks.js') }}"></script>
-
-
-</body>
-</html>
+@endsection
