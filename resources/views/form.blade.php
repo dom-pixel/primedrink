@@ -63,28 +63,42 @@
                         <h1>Register:</h1>
                         <div class="tab">
                             <span class="text-form-03">Celular + DDD</span>
-                            <input class="form-control" placeholder="First name...">
-                            <input class="form-control" placeholder="Last name...">
-                        </div>
-
-                        <div class="tab">Contact Info:
                             <div class="m-t-20">
-                                <input class="form-control" placeholder="E-mail...">
-                                <input class="form-control" placeholder="Phone...">
+                                <input class="form-control" placeholder="First name...">
+                            </div>
+                            <div class="m-t-20">
+                                <input class="form-control" placeholder="Last name...">
                             </div>
                         </div>
 
-                        <div class="tab">Birthday:
+                        <div class="tab">
+                            <span class="text-form-03">Celular + DDD</span>
                             <div class="m-t-20">
-                                <input class="form-control" placeholder="dd">
-                                <input class="form-control" placeholder="mm">
-                                <input class="form-control" placeholder="yyyy">
+                                <input class="form-control" placeholder="First name...">
+                            </div>
+                            <div class="m-t-20">
+                                <input class="form-control" placeholder="Last name...">
                             </div>
                         </div>
 
-                        <div class="tab">Login Info:
-                            <input class="form-control" placeholder="Username...">
-                            <input class="form-control" placeholder="Password...">
+                        <div class="tab">
+                            <span class="text-form-03">Celular + DDD</span>
+                            <div class="m-t-20">
+                                <input class="form-control" placeholder="First name...">
+                            </div>
+                            <div class="m-t-20">
+                                <input class="form-control" placeholder="Last name...">
+                            </div>
+                        </div>
+
+                        <div class="tab">
+                            <span class="text-form-03">Celular + DDD</span>
+                            <div class="m-t-20">
+                                <input class="form-control" placeholder="First name...">
+                            </div>
+                            <div class="m-t-20">
+                                <input class="form-control" placeholder="Last name...">
+                            </div>
                         </div>
 
                         <div style="overflow:auto;">
