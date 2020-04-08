@@ -27,6 +27,7 @@ class CreateRestaurantsTable extends Migration
             $table->string('state');
             $table->string('city');
             $table->boolean('delivery');
+            $table->foreignId('plan_id')->references('id')->on('plans');
 
             /** Dados do dono do restaurante */
             $table->string('full_name');

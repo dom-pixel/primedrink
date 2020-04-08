@@ -15,7 +15,6 @@ class CreatePlansTable extends Migration
     {
         Schema::create('plans', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('restaurant_id')->references('id')->on('restaurants');
             $table->string('name');
             $table->string('description');
             $table->decimal('price', 10, 2);
