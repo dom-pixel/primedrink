@@ -9,6 +9,7 @@
     <meta name="keywords" content="">
     <title>Prime Drink</title>
     @include('layouts.web.head')
+    @yield('css')
 </head>
 <body style="overflow: visible;">
 <div id="wrapper">

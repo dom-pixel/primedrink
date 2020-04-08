@@ -1,121 +1,200 @@
-@extends('layouts.web.master-without-nav')
+@extends('layouts.web.master')
+@section('css')
+    <style>
+        /* Style the form */
+        #regForm {
+            background-color: #ffffff;
+            margin: 100px auto;
+            padding: 40px;
+            width: 70%;
+            min-width: 300px;
+        }
+
+        /* Style the input fields */
+        input {
+            padding: 10px;
+            width: 100%;
+            font-size: 17px;
+            font-family: Raleway;
+            border: 1px solid #aaaaaa;
+        }
+
+        /* Mark input boxes that gets an error on validation: */
+        input.invalid {
+            background-color: #ffdddd;
+        }
+
+        /* Hide all steps by default: */
+        .tab {
+            display: none;
+        }
+
+        /* Make circles that indicate the steps of the form: */
+        .step {
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbbbbb;
+            border: none;
+            border-radius: 50%;
+            display: inline-block;
+            opacity: 0.5;
+        }
+
+        /* Mark the active step: */
+        .step.active {
+            opacity: 1;
+        }
+
+        /* Mark the steps that are finished and valid: */
+        .step.finish {
+            background-color: #4CAF50;
+        }
+    </style>
+@endsection
 
 @section('content')
+    <div class="container">
+        <div class="row">
 
-    <!-- Top content -->
-    <div class="top-content">
+        </div>
+    </div>
+
+    <section class="section" id="section-001">
         <div class="container">
-
             <div class="row">
-                <div class="col-sm-8 col-sm-offset-2 text">
-                    <h1>Free <strong>Bootstrap</strong> Wizard</h1>
-                    <div class="description">
-                        <p>
-                            This is a free responsive Bootstrap form wizard.
-                            Download it on <a href="http://azmind.com"><strong>AZMIND</strong></a>, customize and use it
-                            as you like!
-                        </p>
-                    </div>
-                </div>
-            </div>
+                <div class="col-md-7 col-sm-7"></div>
 
-            <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 form-box">
-                    <form role="form" action="" method="post" class="f1">
+                <div class="col-md-5 col-sm-5">
+                    <form id="regForm" action="#">
+                        <h1>Register:</h1>
+                        <div class="tab">
+                            <span class="text-form-03">Celular + DDD</span>
+                            <input class="form-control" placeholder="First name...">
+                            <input class="form-control" placeholder="Last name...">
+                        </div>
 
-                        <h3>Register To Our App</h3>
-                        <p>Fill in the form to get instant access</p>
-                        <div class="f1-steps">
-                            <div class="f1-progress">
-                                <div class="f1-progress-line" data-now-value="16.66" data-number-of-steps="3"
-                                     style="width: 16.66%;"></div>
-                            </div>
-                            <div class="f1-step active">
-                                <div class="f1-step-icon"><i class="fa fa-user"></i></div>
-                                <p>about</p>
-                            </div>
-                            <div class="f1-step">
-                                <div class="f1-step-icon"><i class="fa fa-key"></i></div>
-                                <p>account</p>
-                            </div>
-                            <div class="f1-step">
-                                <div class="f1-step-icon"><i class="fa fa-twitter"></i></div>
-                                <p>social</p>
+                        <div class="tab">Contact Info:
+                            <div class="m-t-20">
+                                <input class="form-control" placeholder="E-mail...">
+                                <input class="form-control" placeholder="Phone...">
                             </div>
                         </div>
 
-                        <fieldset>
-                            <h4>Tell us who you are:</h4>
-                            <div class="form-group">
-                                <label class="sr-only" for="f1-first-name">First name</label>
-                                <input type="text" name="f1-first-name" placeholder="First name..."
-                                       class="f1-first-name form-control" id="f1-first-name">
+                        <div class="tab">Birthday:
+                            <div class="m-t-20">
+                                <input class="form-control" placeholder="dd">
+                                <input class="form-control" placeholder="mm">
+                                <input class="form-control" placeholder="yyyy">
                             </div>
-                            <div class="form-group">
-                                <label class="sr-only" for="f1-last-name">Last name</label>
-                                <input type="text" name="f1-last-name" placeholder="Last name..."
-                                       class="f1-last-name form-control" id="f1-last-name">
-                            </div>
-                            <div class="form-group">
-                                <label class="sr-only" for="f1-about-yourself">About yourself</label>
-                                <textarea name="f1-about-yourself" placeholder="About yourself..."
-                                          class="f1-about-yourself form-control" id="f1-about-yourself"></textarea>
-                            </div>
-                            <div class="f1-buttons">
-                                <button type="button" class="btn btn-next">Next</button>
-                            </div>
-                        </fieldset>
+                        </div>
 
-                        <fieldset>
-                            <h4>Set up your account:</h4>
-                            <div class="form-group">
-                                <label class="sr-only" for="f1-email">Email</label>
-                                <input type="text" name="f1-email" placeholder="Email..." class="f1-email form-control"
-                                       id="f1-email">
-                            </div>
-                            <div class="form-group">
-                                <label class="sr-only" for="f1-password">Password</label>
-                                <input type="password" name="f1-password" placeholder="Password..."
-                                       class="f1-password form-control" id="f1-password">
-                            </div>
-                            <div class="form-group">
-                                <label class="sr-only" for="f1-repeat-password">Repeat password</label>
-                                <input type="password" name="f1-repeat-password" placeholder="Repeat password..."
-                                       class="f1-repeat-password form-control" id="f1-repeat-password">
-                            </div>
-                            <div class="f1-buttons">
-                                <button type="button" class="btn btn-previous">Previous</button>
-                                <button type="button" class="btn btn-next">Next</button>
-                            </div>
-                        </fieldset>
+                        <div class="tab">Login Info:
+                            <input class="form-control" placeholder="Username...">
+                            <input class="form-control" placeholder="Password...">
+                        </div>
 
-                        <fieldset>
-                            <h4>Social media profiles:</h4>
-                            <div class="form-group">
-                                <label class="sr-only" for="f1-facebook">Facebook</label>
-                                <input type="text" name="f1-facebook" placeholder="Facebook..."
-                                       class="f1-facebook form-control" id="f1-facebook">
+                        <div style="overflow:auto;">
+                            <div style="float:right;">
+                                <div class="m-t-10">
+                                    <button type="button" class="btn-sm btn-danger" id="prevBtn" onclick="nextPrev(-1)">
+                                        Previous
+                                    </button>
+                                    <button type="button" class="btn-sm btn-success" id="nextBtn" onclick="nextPrev(1)">
+                                        Next
+                                    </button>
+                                </div>
                             </div>
-                            <div class="form-group">
-                                <label class="sr-only" for="f1-twitter">Twitter</label>
-                                <input type="text" name="f1-twitter" placeholder="Twitter..."
-                                       class="f1-twitter form-control" id="f1-twitter">
-                            </div>
-                            <div class="form-group">
-                                <label class="sr-only" for="f1-google-plus">Google plus</label>
-                                <input type="text" name="f1-google-plus" placeholder="Google plus..."
-                                       class="f1-google-plus form-control" id="f1-google-plus">
-                            </div>
-                            <div class="f1-buttons">
-                                <button type="button" class="btn btn-previous">Previous</button>
-                                <button type="submit" class="btn btn-submit">Submit</button>
-                            </div>
-                        </fieldset>
+                        </div>
+
+                        <!-- Circles which indicates the steps of the form: -->
+                        <div style="text-align:center;margin-top:40px;">
+                            <span class="step"></span>
+                            <span class="step"></span>
+                            <span class="step"></span>
+                            <span class="step"></span>
+                        </div>
 
                     </form>
                 </div>
             </div>
-
         </div>
-    </div>
+    </section>
+@endsection
+
+@section('script-bottom')
+    <script>
+        var currentTab = 0; // Current tab is set to be the first tab (0)
+        showTab(currentTab); // Display the current tab
+
+        function showTab(n) {
+            // This function will display the specified tab of the form ...
+            var x = document.getElementsByClassName("tab");
+            x[n].style.display = "block";
+            // ... and fix the Previous/Next buttons:
+            if (n == 0) {
+                document.getElementById("prevBtn").style.display = "none";
+            } else {
+                document.getElementById("prevBtn").style.display = "inline";
+            }
+            if (n == (x.length - 1)) {
+                document.getElementById("nextBtn").innerHTML = "Submit";
+            } else {
+                document.getElementById("nextBtn").innerHTML = "Next";
+            }
+            // ... and run a function that displays the correct step indicator:
+            fixStepIndicator(n)
+        }
+
+        function nextPrev(n) {
+            // This function will figure out which tab to display
+            var x = document.getElementsByClassName("tab");
+            // Exit the function if any field in the current tab is invalid:
+            if (n == 1 && !validateForm()) return false;
+            // Hide the current tab:
+            x[currentTab].style.display = "none";
+            // Increase or decrease the current tab by 1:
+            currentTab = currentTab + n;
+            // if you have reached the end of the form... :
+            if (currentTab >= x.length) {
+                //...the form gets submitted:
+                document.getElementById("regForm").submit();
+                return false;
+            }
+            // Otherwise, display the correct tab:
+            showTab(currentTab);
+        }
+
+        function validateForm() {
+            // This function deals with validation of the form fields
+            var x, y, i, valid = true;
+            x = document.getElementsByClassName("tab");
+            y = x[currentTab].getElementsByTagName("input");
+            // A loop that checks every input field in the current tab:
+            for (i = 0; i < y.length; i++) {
+                // If a field is empty...
+                if (y[i].value == "") {
+                    // add an "invalid" class to the field:
+                    y[i].className += " invalid";
+                    // and set the current valid status to false:
+                    valid = false;
+                }
+            }
+            // If the valid status is true, mark the step as finished and valid:
+            if (valid) {
+                document.getElementsByClassName("step")[currentTab].className += " finish";
+            }
+            return valid; // return the valid status
+        }
+
+        function fixStepIndicator(n) {
+            // This function removes the "active" class of all steps...
+            var i, x = document.getElementsByClassName("step");
+            for (i = 0; i < x.length; i++) {
+                x[i].className = x[i].className.replace(" active", "");
+            }
+            //... and adds the "active" class to the current step:
+            x[n].className += " active";
+        }
+    </script>
 @endsection
