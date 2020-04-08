@@ -1,3 +1,4 @@
+@yield('script')
 <!-- JS -->
 <script src="{{asset('front/jquery.min.js')}}"></script>
 <script src="{{asset('front/bootstrap.js')}}"></script>
@@ -25,3 +26,4 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.0/jquery.mask.js"></script>
 <!-- scripts customizados -->
 <script type="text/javascript" src="{{ asset('front/masks.js') }}"></script>
+@yield('script-bottom')
