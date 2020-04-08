@@ -54,17 +54,10 @@
 @endsection
 
 @section('content')
-    <div class="container">
-        <div class="row">
-
-        </div>
-    </div>
-
     <section class="section" id="section-001">
         <div class="container">
             <div class="row">
                 <div class="col-md-7 col-sm-7"></div>
-
                 <div class="col-md-5 col-sm-5">
                     <form id="regForm" action="#">
                         <h1>Register:</h1>
