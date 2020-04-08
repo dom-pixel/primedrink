@@ -27,7 +27,7 @@
 <link rel="stylesheet" type="text/css" href="{{asset('front/style.css')}}">
 <!-- COLORS -->
 <link rel="stylesheet" type="text/css" href="{{asset('front/custom.css')}}">
-
+<!-- Styles -->
 <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>

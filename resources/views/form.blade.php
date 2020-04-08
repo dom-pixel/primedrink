@@ -54,19 +54,118 @@
 @endsection
 
 @section('content')
-    <section class="section" id="section-001">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-7 col-sm-7"></div>
-                <div class="col-md-5 col-sm-5">
-                    <form id="regForm" action="#">
-                        <h1>Register:</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-4"></div>
+
+            <div class="col-md-5 col-sm-5">
+                <form action="{{ route('sendRegister') }}" method="POST" data-toggle="validator" data-focus="false">
+                    @csrf
+                    <div class="content-form-home">
+                        <!-- Circles which indicates the steps of the form: -->
+                        <div style="text-align:center;margin-bottom:20px;">
+                            <span class="step"></span>
+                            <span class="step"></span>
+                            <span class="step"></span>
+                            <span class="step"></span>
+                        </div>
+
                         <div class="tab">
-                            <span class="text-form-03">Celular + DDD</span>
+                            <h1>Sobre o restaurante:</h1>
                             <div class="m-t-20">
+                                <span class="text-form-03">CNPJ</span>
+                                <input class="form-control" placeholder="First name...">
+                            </div>
+
+                            <div class="m-t-20">
+                                <span class="text-form-03">Razão Social</span>
+                                <input class="form-control" placeholder="Last name...">
+                            </div>
+
+                            <div class="m-t-20">
+                                <span class="text-form-03">Nome do Restaurante</span>
+                                <input class="form-control" placeholder="Last name...">
+                            </div>
+
+                            <div class="m-t-20">
+                                <span class="text-form-03">Telefone</span>
+                                <input class="form-control" placeholder="Last name...">
+                            </div>
+
+                            <div class="m-t-20">
+                                <span class="text-form-03">CEP</span>
+                                <input class="form-control" placeholder="Last name...">
+                            </div>
+
+                            <div class="m-t-20">
+                                <span class="text-form-03">Cidade</span>
+                                <input class="form-control" placeholder="Last name...">
+                            </div>
+
+                            <div class="m-t-20">
+                                <span class="text-form-03">Estado</span>
+                                <input class="form-control" placeholder="Last name...">
+                            </div>
+
+                            <div class="m-t-20">
+                                <span class="text-form-03">Bairro</span>
+                                <input class="form-control" placeholder="Last name...">
+                            </div>
+
+                            <div class="m-t-20">
+                                <span class="text-form-03">Endereço</span>
+                                <input class="form-control" placeholder="Digite o endereço">
+                            </div>
+
+                            <div class="m-t-20">
+                                <span class="text-form-03">Número</span>
+                                <input class="form-control" placeholder="Digite o número">
+                            </div>
+
+                            <div class="m-t-20">
+                                <span class="text-form-03">Complemento(Opcional)</span>
+                                <input class="form-control" placeholder="Digite o complemento">
+                            </div>
+
+                            <div class="m-t-20">
+                                <div class="form-group">
+                                    <span class="text-form-03">Especialidade</span>
+                                    <select class="form-control">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="m-t-20">
+                                <div class="form-group">
+                                    <span class="text-form-03">O restaurante possui entrega?</span>
+                                    <select class="form-control">
+                                        <option>Sim</option>
+                                        <option>Não</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab">
+                            <h1>Sobre o dono do restaurante</h1>
+                            <div class="m-t-20">
+                                <span class="text-form-03">Nome Completo</span>
                                 <input class="form-control" placeholder="First name...">
                             </div>
                             <div class="m-t-20">
+                                <span class="text-form-03">CPF</span>
+                                <input class="form-control" placeholder="Last name...">
+                            </div>
+                            <div class="m-t-20">
+                                <span class="text-form-03">RG</span>
+                                <input class="form-control" placeholder="Last name...">
+                            </div>
+                            <div class="m-t-20">
+                                <span class="text-form-03">Orgão Emissor</span>
                                 <input class="form-control" placeholder="Last name...">
                             </div>
                         </div>
@@ -82,20 +181,19 @@
                         </div>
 
                         <div class="tab">
-                            <span class="text-form-03">Celular + DDD</span>
+                            <span class="text-form-03">Nome Completo</span>
                             <div class="m-t-20">
                                 <input class="form-control" placeholder="First name...">
                             </div>
+                            <span class="text-form-03">CPF</span>
                             <div class="m-t-20">
                                 <input class="form-control" placeholder="Last name...">
                             </div>
-                        </div>
-
-                        <div class="tab">
-                            <span class="text-form-03">Celular + DDD</span>
+                            <span class="text-form-03">RG</span>
                             <div class="m-t-20">
-                                <input class="form-control" placeholder="First name...">
+                                <input class="form-control" placeholder="Last name...">
                             </div>
+                            <span class="text-form-03">Orgão Emissor</span>
                             <div class="m-t-20">
                                 <input class="form-control" placeholder="Last name...">
                             </div>
@@ -104,29 +202,22 @@
                         <div style="overflow:auto;">
                             <div style="float:right;">
                                 <div class="m-t-10">
-                                    <button type="button" class="btn-sm btn-danger" id="prevBtn" onclick="nextPrev(-1)">
+                                    <button type="button" class="btn-sm btn-danger" id="prevBtn"
+                                            onclick="nextPrev(-1)">
                                         Previous
                                     </button>
-                                    <button type="button" class="btn-sm btn-success" id="nextBtn" onclick="nextPrev(1)">
+                                    <button type="button" class="btn-sm btn-success" id="nextBtn"
+                                            onclick="nextPrev(1)">
                                         Next
                                     </button>
                                 </div>
                             </div>
                         </div>
-
-                        <!-- Circles which indicates the steps of the form: -->
-                        <div style="text-align:center;margin-top:40px;">
-                            <span class="step"></span>
-                            <span class="step"></span>
-                            <span class="step"></span>
-                            <span class="step"></span>
-                        </div>
-
-                    </form>
-                </div>
+                    </div>
+                </form>
             </div>
         </div>
-    </section>
+    </div>
 @endsection
 
 @section('script-bottom')
@@ -180,7 +271,8 @@
             // A loop that checks every input field in the current tab:
             for (i = 0; i < y.length; i++) {
                 // If a field is empty...
-                if (y[i].value == "") {
+                var required = y[i].className;
+                if (y[i].value == "" && required.match('.required')) {
                     // add an "invalid" class to the field:
                     y[i].className += " invalid";
                     // and set the current valid status to false:

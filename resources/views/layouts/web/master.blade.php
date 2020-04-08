@@ -35,7 +35,7 @@
                 <div class="col-md-6">
                     <div>
                         <div style="clear: both;">
-                            <img style="height: 30px; float: left;" src="{{asset('images/009.png')}}'">
+                            <img style="height: 30px; float: left;" src="{{asset('images/009.png')}}">
 
                             <span class="text-footer-1">
                             WHATSAPP - 09H00 - 18H00
