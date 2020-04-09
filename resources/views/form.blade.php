@@ -68,64 +68,69 @@
                             <span class="step"></span>
                             <span class="step"></span>
                             <span class="step"></span>
+                            <span class="step"></span>
                         </div>
 
                         <div class="tab">
                             <h1>Sobre o restaurante:</h1>
                             <div class="m-t-20">
                                 <span class="text-form-03">CNPJ</span>
-                                <input class="form-control required" placeholder="Digite o CNPJ" required>
+                                <input class="form-control required" type="text" placeholder="Digite o CNPJ" required>
                             </div>
 
                             <div class="m-t-20">
                                 <span class="text-form-03">Razão Social</span>
-                                <input class="form-control required" placeholder="Digite a razão social" required>
+                                <input class="form-control required" type="text" placeholder="Digite a razão social"
+                                       required>
                             </div>
 
                             <div class="m-t-20">
                                 <span class="text-form-03">Nome do Restaurante</span>
-                                <input class="form-control required" placeholder="Digite o nome do restaurante"
+                                <input class="form-control required" type="text"
+                                       placeholder="Digite o nome do restaurante"
                                        required>
                             </div>
 
                             <div class="m-t-20">
                                 <span class="text-form-03">Telefone</span>
-                                <input class="form-control required" placeholder="Digite o telefone" required>
+                                <input class="form-control required" type="text" placeholder="Digite o telefone"
+                                       required>
                             </div>
 
                             <div class="m-t-20">
                                 <span class="text-form-03">CEP</span>
-                                <input class="form-control required" placeholder="Digite o CEP" required>
+                                <input class="form-control required" type="text" placeholder="Digite o CEP" required>
                             </div>
 
                             <div class="m-t-20">
                                 <span class="text-form-03">Cidade</span>
-                                <input class="form-control required" placeholder="Digite a cidade" required>
+                                <input class="form-control required" type="text" placeholder="Digite a cidade" required>
                             </div>
 
                             <div class="m-t-20">
                                 <span class="text-form-03">Estado</span>
-                                <input class="form-control required" placeholder="Digite o estado" required>
+                                <input class="form-control required" type="text" placeholder="Digite o estado" required>
                             </div>
 
                             <div class="m-t-20">
                                 <span class="text-form-03">Bairro</span>
-                                <input class="form-control required" placeholder="Digite o bairro" required>
+                                <input class="form-control required" type="text" placeholder="Digite o bairro" required>
                             </div>
 
                             <div class="m-t-20">
                                 <span class="text-form-03">Endereço</span>
-                                <input class="form-control required" placeholder="Digite o endereço" required>
+                                <input class="form-control required" type="text" placeholder="Digite o endereço"
+                                       required>
                             </div>
 
                             <div class="m-t-20">
                                 <span class="text-form-03">Número</span>
-                                <input class="form-control required" placeholder="Digite o número" required>
+                                <input class="form-control required" type="text" placeholder="Digite o número" required>
                             </div>
 
                             <div class="m-t-20">
                                 <span class="text-form-03">Complemento(Opcional)</span>
-                                <input class="form-control" placeholder="Digite o complemento">
+                                <input class="form-control" type="text" placeholder="Digite o complemento">
                             </div>
 
                             <div class="m-t-20">
@@ -152,51 +157,79 @@
                         </div>
 
                         <div class="tab">
+                            <h1>Planos disponíveis</h1>
+                            <span class="text-form-03">Plano 1</span>
+                            <div class="m-t-20">
+                                <input class="form-control" placeholder="First name...">
+                            </div>
+                            <div class="m-t-20">
+                                <span class="text-form-03">Plano 2</span>
+                                <input class="form-control" placeholder="Last name...">
+                            </div>
+                        </div>
+
+                        <div class="tab">
                             <h1>Sobre o dono do restaurante</h1>
                             <div class="m-t-20">
                                 <span class="text-form-03">Nome Completo</span>
-                                <input class="form-control" placeholder="First name...">
+                                <input class="form-control required" type="text" placeholder="Digite o nome completo"
+                                       required>
                             </div>
                             <div class="m-t-20">
                                 <span class="text-form-03">CPF</span>
-                                <input class="form-control" placeholder="Last name...">
+                                <input class="form-control required" type="text" placeholder="Digite o CPF" required>
                             </div>
                             <div class="m-t-20">
                                 <span class="text-form-03">RG</span>
-                                <input class="form-control" placeholder="Last name...">
+                                <input class="form-control required" type="text" placeholder="Digite o RG" required>
                             </div>
                             <div class="m-t-20">
                                 <span class="text-form-03">Orgão Emissor</span>
-                                <input class="form-control" placeholder="Last name...">
+                                <input class="form-control required" type="text" placeholder="Digite o orgão emissor"
+                                       required>
                             </div>
                         </div>
 
                         <div class="tab">
-                            <span class="text-form-03">Celular + DDD</span>
+                            <h1>Dados bancários para o recebimento</h1>
+                            <span class="text-form-03">Banco</span>
                             <div class="m-t-20">
-                                <input class="form-control" placeholder="First name...">
+                                <input class="form-control" placeholder="Selecione o Banco">
+                            </div>
+                            <span class="text-form-03">Agência</span>
+                            <div class="m-t-20">
+                                <input class="form-control" placeholder="Digite o código da agência">
+                            </div>
+                            <span class="text-form-03">Conta</span>
+                            <div class="m-t-20">
+                                <input class="form-control" placeholder="Digite o número da conta">
+                            </div>
+                            <span class="text-form-03">Dígito</span>
+                            <div class="m-t-20">
+                                <input class="form-control" placeholder="Digite o dígito da conta">
                             </div>
                             <div class="m-t-20">
-                                <input class="form-control" placeholder="Last name...">
+                                <div class="form-group">
+                                    <span class="text-form-03">Esta conta bancária está vínculada ao CNPJ do restaurante?</span>
+                                    <select class="form-control">
+                                        <option>Sim</option>
+                                        <option>Não</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
 
                         <div class="tab">
-                            <span class="text-form-03">Nome Completo</span>
+                            <h1>Quase pronto! Agora crie sua senha</h1>
                             <div class="m-t-20">
-                                <input class="form-control" placeholder="First name...">
+                                <span class="text-form-03">Login</span>
+                                <input class="form-control required" type="email" placeholder="Digite o seu email"
+                                       required>
                             </div>
-                            <span class="text-form-03">CPF</span>
                             <div class="m-t-20">
-                                <input class="form-control" placeholder="Last name...">
-                            </div>
-                            <span class="text-form-03">RG</span>
-                            <div class="m-t-20">
-                                <input class="form-control" placeholder="Last name...">
-                            </div>
-                            <span class="text-form-03">Orgão Emissor</span>
-                            <div class="m-t-20">
-                                <input class="form-control" placeholder="Last name...">
+                                <span class="text-form-03">Senha</span>
+                                <input class="form-control required" type="password" placeholder="Digite uma senha"
+                                       required>
                             </div>
                         </div>
 
