@@ -1,5 +1,5 @@
 /* ----------------------------------------------------
-  
+
 	File Name: style.css
 	Template Name: WS Garden
 	Created By: WordPress Showcase Team
@@ -26,7 +26,7 @@
 ------------------------------------------------------- */
 
 /* ----------------------------------------------------
-	IMPORT	
+	IMPORT
 ------------------------------------------------------- */
 
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
@@ -35,7 +35,7 @@
 @import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
 
 /* ----------------------------------------------------
-	SKELETON	
+	SKELETON
 ------------------------------------------------------- */
 
 body {
@@ -584,7 +584,7 @@ p.drop-caps.full:first-child:first-letter {
 
 
 /* ----------------------------------------------------
-	HEADER	
+	HEADER
 ------------------------------------------------------- */
 
 .topbar {
@@ -830,7 +830,7 @@ p.drop-caps.full:first-child:first-letter {
     }
 
 /* ----------------------------------------------------
-	SECTIONS	
+	SECTIONS
 ------------------------------------------------------- */
 
 .parallax .breadcrumb > li a {
@@ -1515,7 +1515,7 @@ ul.site-links {
 }
 
 /* ----------------------------------------------------
-	MODULES	
+	MODULES
 ------------------------------------------------------- */
 
 .btn {
@@ -1650,7 +1650,7 @@ ul.site-links {
 }
 
 /* ----------------------------------------------------
-	SHOPPING	
+	SHOPPING
 ------------------------------------------------------- */
 
 .blog-wrapper .shop-item {
@@ -2606,7 +2606,7 @@ body.blog-style #content .blog-title {
 
 
 /* ----------------------------------------------------
-	OTHERS	
+	OTHERS
 ------------------------------------------------------- */
 
 .title-area h2 {
@@ -2925,7 +2925,7 @@ body.blog-style #content .blog-title {
 }
 
 /* ----------------------------------------------------
-	PRICING	
+	PRICING
 ------------------------------------------------------- */
 
 .pricing-tables {
@@ -3123,7 +3123,7 @@ body.blog-style #content .blog-title {
 }
 
 /* ----------------------------------------------------
-	TESTIMONIALS	
+	TESTIMONIALS
 ------------------------------------------------------- */
 
 .testimonials blockquote {
@@ -3346,7 +3346,7 @@ span.clients-name {
 }
 
 /* ----------------------------------------------------
-	COLORS	
+	COLORS
 ------------------------------------------------------- */
 
 /*** YELLOW ***/
@@ -3503,7 +3503,7 @@ blockquote,
 }
 
 /* ----------------------------------------------------
-	RESPONSIVE	
+	RESPONSIVE
 ------------------------------------------------------- */
 
 @media (max-width: 768px) {
@@ -3556,7 +3556,7 @@ blockquote,
     }
 }
 /* ----------------------------------------------------
-	RESPONSIVE	
+	RESPONSIVE
 ------------------------------------------------------- */
 
 @media (min-width: 992px) {
@@ -5524,7 +5524,7 @@ body::-webkit-scrollbar-thumb {
 .img-right-quem-somos1 {
     width: 40px;
     height: auto;
-    /*display: inline-block; 
+    /*display: inline-block;
     vertical-align: initial;*/
 }
 
@@ -5642,12 +5642,12 @@ body::-webkit-scrollbar-thumb {
     background-size: 100% auto;
 }
 
-/*#section-002 {
-    background-image: url(../images/019.png);
+#section-009 {
+    background-color: #FBE257;
     background-repeat: no-repeat;
     background-position: center top;
     background-size: 100% auto;
-}*/
+}
 
 #section-004 {
     background-image: url(../images/005.png);
