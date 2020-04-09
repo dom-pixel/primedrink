@@ -50,6 +50,9 @@
             <div class="row">
                 <img src="{{asset('images/logo-full.png')}}" class="aligncenter" width="212" alt="alt here">
                 <form id="regForm" action="{{ route('sendRegister') }}" method="POST">
+                    <div class="col-md-2 col-sm-2"></div>
+
+                    <div class="col-md-8 col-sm-8">
                     <div class="content-form-home">
                     @csrf
                     <!-- Circles which indicates the steps of the form: -->
