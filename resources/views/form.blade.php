@@ -74,52 +74,53 @@
                             <h1>Sobre o restaurante:</h1>
                             <div class="m-t-20">
                                 <span class="text-form-03">CNPJ</span>
-                                <input class="form-control" placeholder="First name...">
+                                <input class="form-control required" placeholder="Digite o CNPJ" required>
                             </div>
 
                             <div class="m-t-20">
                                 <span class="text-form-03">Razão Social</span>
-                                <input class="form-control" placeholder="Last name...">
+                                <input class="form-control required" placeholder="Digite a razão social" required>
                             </div>
 
                             <div class="m-t-20">
                                 <span class="text-form-03">Nome do Restaurante</span>
-                                <input class="form-control" placeholder="Last name...">
+                                <input class="form-control required" placeholder="Digite o nome do restaurante"
+                                       required>
                             </div>
 
                             <div class="m-t-20">
                                 <span class="text-form-03">Telefone</span>
-                                <input class="form-control" placeholder="Last name...">
+                                <input class="form-control required" placeholder="Digite o telefone" required>
                             </div>
 
                             <div class="m-t-20">
                                 <span class="text-form-03">CEP</span>
-                                <input class="form-control" placeholder="Last name...">
+                                <input class="form-control required" placeholder="Digite o CEP" required>
                             </div>
 
                             <div class="m-t-20">
                                 <span class="text-form-03">Cidade</span>
-                                <input class="form-control" placeholder="Last name...">
+                                <input class="form-control required" placeholder="Digite a cidade" required>
                             </div>
 
                             <div class="m-t-20">
                                 <span class="text-form-03">Estado</span>
-                                <input class="form-control" placeholder="Last name...">
+                                <input class="form-control required" placeholder="Digite o estado" required>
                             </div>
 
                             <div class="m-t-20">
                                 <span class="text-form-03">Bairro</span>
-                                <input class="form-control" placeholder="Last name...">
+                                <input class="form-control required" placeholder="Digite o bairro" required>
                             </div>
 
                             <div class="m-t-20">
                                 <span class="text-form-03">Endereço</span>
-                                <input class="form-control" placeholder="Digite o endereço">
+                                <input class="form-control required" placeholder="Digite o endereço" required>
                             </div>
 
                             <div class="m-t-20">
                                 <span class="text-form-03">Número</span>
-                                <input class="form-control" placeholder="Digite o número">
+                                <input class="form-control required" placeholder="Digite o número" required>
                             </div>
 
                             <div class="m-t-20">
