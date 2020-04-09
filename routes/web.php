@@ -27,4 +27,6 @@ Route::get('/teste', function () {
     return view('form');
 });
 
-Route::post('/teste', 'TesteController@post')->name('sendRegister');
+Route::post('/teste', function (Illuminate\Http\Request $request) {
+    dd($request->all());
+})->name('sendRegister');
