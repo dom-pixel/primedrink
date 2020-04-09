@@ -23,6 +23,8 @@ Route::get('/register', 'Auth\RegisterController@showRegistrationForm')->name('r
 Route::post('/register', 'Auth\RegisterController@register');
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/teste', function (){
-   return view('form');
+Route::get('/teste', function () {
+    return view('form');
 });
+
+Route::post('/teste', 'TesteController@post')->name('sendRegister');
