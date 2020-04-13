@@ -162,12 +162,20 @@
                                              alt="alt here">
                                         <span class="text-form-00">PRIME PLUS</span>
                                     </div>
-                                    <i class="fa fa-check"></i>
-                                    <p class="text-info-prime-1">Entrega realizada atráves dos nossos parceiros de logística.</p>
-                                    <p class="text-info-prime-1">Não possuimos fidelidade, cancele o plano quando desejar.</p>
-                                    <p class="text-info-prime-1">15% sobre o valor dos pedidos, incluindo taxa de entrega. (Mais 3,7% para
+                                    <br/>
+                                    <p class="text-form-01 m-b-20"><i class="fa fa-check"></i> Entrega realizada atráves dos
+                                        nossos parceiros de
+                                        logística.</p>
+                                    <p class="text-form-01 m-b-20"><i class="fa fa-check"></i> Não possuimos fidelidade,
+                                        cancele o plano quando
+                                        desejar.</p>
+                                    <p class="text-form-01 m-b-20"><i class="fa fa-check"></i> 15% sobre o valor dos pedidos,
+                                        incluindo taxa de
+                                        entrega. (Mais 3,7% para
                                         pagamento on-line)</p>
-                                    <p class="text-info-prime-1">Mensalidade de R$150 por mês, apenas se você faturar mais que R$5.000,00
+                                    <p class="text-form-01 m-b-20"><i class="fa fa-check"></i> Mensalidade de R$150 por mês,
+                                        apenas se você faturar
+                                        mais que R$5.000,00
                                         mensais.</p>
                                 </div>
                             </div>
