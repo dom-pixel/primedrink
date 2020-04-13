@@ -17,7 +17,8 @@ class CreateRestaurantsTable extends Migration
             $table->id();
             /** Dados do restaurante */
             $table->string('cnpj')->unique();
-            $table->string('name');
+            $table->string('company_name');
+            $table->string('trading_name');
             $table->string('phone');
             $table->string('zipcode');
             $table->string('street');
@@ -26,6 +27,7 @@ class CreateRestaurantsTable extends Migration
             $table->string('neighborhood');
             $table->string('state');
             $table->string('city');
+            $table->boolean('business');
             $table->boolean('delivery');
             $table->foreignId('plan_id')->references('id')->on('plans');
 
