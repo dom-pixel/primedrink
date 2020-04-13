@@ -163,17 +163,20 @@
                                         <span class="text-form-00">PRIME PLUS</span>
                                     </div>
                                     <br/>
-                                    <p class="text-form-01 m-b-20"><i class="fa fa-check"></i> Entrega realizada atráves dos
+                                    <p class="text-form-01 m-b-20"><i class="fa fa-check"></i> Entrega realizada atráves
+                                        dos
                                         nossos parceiros de
                                         logística.</p>
                                     <p class="text-form-01 m-b-20"><i class="fa fa-check"></i> Não possuimos fidelidade,
                                         cancele o plano quando
                                         desejar.</p>
-                                    <p class="text-form-01 m-b-20"><i class="fa fa-check"></i> 15% sobre o valor dos pedidos,
+                                    <p class="text-form-01 m-b-20"><i class="fa fa-check"></i> 15% sobre o valor dos
+                                        pedidos,
                                         incluindo taxa de
                                         entrega. (Mais 3,7% para
                                         pagamento on-line)</p>
-                                    <p class="text-form-01 m-b-20"><i class="fa fa-check"></i> Mensalidade de R$150 por mês,
+                                    <p class="text-form-01 m-b-20"><i class="fa fa-check"></i> Mensalidade de R$150 por
+                                        mês,
                                         apenas se você faturar
                                         mais que R$5.000,00
                                         mensais.</p>
@@ -207,23 +210,23 @@
 
                             <div class="tab">
                                 <h1>Dados bancários para o recebimento</h1>
-                                <span class="text-form-03">Banco</span>
                                 <div class="m-t-20">
+                                    <span class="text-form-03">Banco</span>
                                     <input class="form-control" type="text" name="bank_id"
                                            placeholder="Selecione o Banco">
                                 </div>
-                                <span class="text-form-03">Agência</span>
                                 <div class="m-t-20">
+                                    <span class="text-form-03">Agência</span>
                                     <input class="form-control" type="text" name="agency"
                                            placeholder="Digite o código da agência">
                                 </div>
-                                <span class="text-form-03">Conta</span>
                                 <div class="m-t-20">
+                                    <span class="text-form-03">Conta</span>
                                     <input class="form-control" type="text" name="account"
                                            placeholder="Digite o número da conta">
                                 </div>
-                                <span class="text-form-03">Dígito</span>
                                 <div class="m-t-20">
+                                    <span class="text-form-03">Dígito</span>
                                     <input class="form-control" type="text" name="email"
                                            placeholder="Digite o dígito da conta">
                                 </div>
