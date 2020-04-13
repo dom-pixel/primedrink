@@ -36,4 +36,14 @@ class Restaurant extends Model
         'digit',
         'is_linked'
     ];
+
+    public function setDeliveryAttribute($value)
+    {
+        $this->attributes['delivery'] = ($value === true || $value === 'on' ? 1 : 0);
+    }
+
+    public function setIsLinkedAttribute($value)
+    {
+        $this->attributes['is_linked'] = ($value === true || $value === 'on' ? 1 : 0);
+    }
 }

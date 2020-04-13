@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'Web\LandingPageController@home')->name('landingPage');
-Route::post('/send/email', 'Web\LandingPageController@mail')->name('sendRegister');
+Route::post('/send/email', 'Web\LandingPageController@mail')->name('sendRegisterSubscription');
 
 Route::get('/login', 'Auth\LoginController@showLoginForm')->name('login');
 Route::post('/login', 'Auth\LoginController@login');
@@ -23,6 +23,6 @@ Route::get('/register', 'Auth\RegisterController@showRegistrationForm')->name('r
 Route::post('/register', 'Auth\RegisterController@register');
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/registro', 'Web\LandingPageController@form')->name('showForm');
+Route::get('/cadastro', 'Web\LandingPageController@form')->name('showForm');
 
 Route::post('/registro', 'Web\LandingPageController@register')->name('sendRegister');

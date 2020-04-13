@@ -7,7 +7,7 @@
                 <div class="col-md-7 col-sm-7"></div>
 
                 <div class="col-md-5 col-sm-5">
-                    <form action="{{ route('sendRegister') }}" method="POST" data-toggle="validator" data-focus="false">
+                    <form action="{{ route('sendRegisterSubscription') }}" method="POST" data-toggle="validator" data-focus="false">
                         @csrf
                         <div class="content-form-home">
                             <!-- Mensagem de sucesso no cadastro e envio de e-mail -->

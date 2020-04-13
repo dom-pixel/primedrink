@@ -6,6 +6,7 @@ use App\Bank;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\SendMailableRequest;
 use App\Mail\SendMailable;
+use App\Restaurant;
 use App\Subscription;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
@@ -29,14 +30,14 @@ class LandingPageController extends Controller
             'toEmail' => $subscription->email
         ];
 
-        try {
+   /*     try {
             Mail::to($subscription->email)->send(new SendMailable($data));
             $subscription->save();
         } catch (\Exception $e) {
             return redirect()->back()->with('error', 'Ocorreu um erro com sua soliticação, tente novamente mais tarde!');
-        }
+        }*/
 
-        return redirect()->back()->with('success', 'Inscrição feita com sucesso!');
+        return redirect()->route('showForm');
     }
 
     public function form()
@@ -47,6 +48,6 @@ class LandingPageController extends Controller
 
     public function register(Request $request)
     {
-
+        $restaurant = Restaurant::create($request->except('email', 'password'));
     }
 }

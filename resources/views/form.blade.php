@@ -70,7 +70,7 @@
 
                                 <div class="m-t-20">
                                     <span class="text-form-03">Bairro</span>
-                                    <input class="form-control" type="text" name="neighboorhod"
+                                    <input class="form-control" type="text" name="neighborhood"
                                            placeholder="Digite o bairro"
                                            required>
                                 </div>
@@ -111,8 +111,8 @@
                                     <div class="form-group">
                                         <span class="text-form-03">Você já possui serviço de entrega?</span>
                                         <select class="form-control" name="delivery">
-                                            <option value="true">Sim</option>
-                                            <option value="false">Não</option>
+                                            <option value="on">Sim</option>
+                                            <option value="off">Não</option>
                                         </select>
                                     </div>
                                 </div>
@@ -143,6 +143,7 @@
                                         apenas se você faturar
                                         mais que R$5.000,00
                                         mensais.</p>
+                                    <input type="hidden" name="plan_id" value="1"/>
                                 </div>
                             </div>
 
