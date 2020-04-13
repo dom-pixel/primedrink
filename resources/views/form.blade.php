@@ -159,7 +159,7 @@
                                     <input class="form-control required" type="text"
                                            name="full_name"
                                            placeholder="Digite o seu nome"
-                                           value="{{$data['full_name'] ?? 'Digite o seu nome'}}"
+                                           value="{{session('full_name')?? 'Digite o seu nome'}}"
                                            required>
                                 </div>
                                 <div class="m-t-20">
@@ -226,7 +226,7 @@
                                     <div class="m-b-10">Login</div>
                                     <input class="form-control required" name="email" type="email"
                                            placeholder="Digite o seu email"
-                                           value="{{$data['email'] ?? 'Digite o seu email'}}"
+                                           value="{{session('email')?? 'Digite o seu email'}}"
                                            required>
                                 </div>
                                 <div class="m-t-20">

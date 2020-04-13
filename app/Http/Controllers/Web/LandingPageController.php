@@ -30,10 +30,13 @@ class LandingPageController extends Controller
                     'toEmail' => $subscription->email
                 ];*/
 
-        $data = [
+    /*    $data = [
             'full_name' => $request->name,
             'email' => $request->email
-        ];
+        ];*/
+
+        $request->session()->put('full_name', $request->name);
+        $request->session()->put('email', $request->email);
 
         /* try {
               Mail::to($subscription->email)->send(new SendMailable($data));
@@ -42,10 +45,10 @@ class LandingPageController extends Controller
               return redirect()->back()->with('error', 'Ocorreu um erro com sua soliticação, tente novamente mais tarde!');
           }*/
 
-        return redirect()->route('showForm')->with();
+        return redirect()->route('showForm');
     }
 
-    public function form(Request $request)
+    public function form()
     {
         $banks = Bank::all();
         return view('form', compact('banks'));
