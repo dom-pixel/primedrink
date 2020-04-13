@@ -13,7 +13,8 @@ class Restaurant extends Model
      */
     protected $fillable = [
         'cnpj',
-        'name',
+        'company_name',
+        'trading_name',
         'phone',
         'zipcode',
         'street',
@@ -22,6 +23,7 @@ class Restaurant extends Model
         'neighborhood',
         'state',
         'city',
+        'business',
         'delivery',
         'plan_id',
         'full_name',

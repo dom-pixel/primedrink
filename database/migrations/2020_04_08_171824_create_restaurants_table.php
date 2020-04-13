@@ -27,7 +27,7 @@ class CreateRestaurantsTable extends Migration
             $table->string('neighborhood');
             $table->string('state');
             $table->string('city');
-            $table->boolean('business');
+            $table->enum('business', ['Distribuidora', 'Empório', 'Conveniência', 'Mercadinho', 'Adega', 'Outro']);
             $table->boolean('delivery');
             $table->foreignId('plan_id')->references('id')->on('plans');
 

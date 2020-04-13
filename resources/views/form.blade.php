@@ -70,13 +70,15 @@
 
                                 <div class="m-t-20">
                                     <span class="text-form-03">Bairro</span>
-                                    <input class="form-control" type="text" name="neighboorhod" placeholder="Digite o bairro"
+                                    <input class="form-control" type="text" name="neighboorhod"
+                                           placeholder="Digite o bairro"
                                            required>
                                 </div>
 
                                 <div class="m-t-20">
                                     <span class="text-form-03">Endereço</span>
-                                    <input class="form-control" type="text" name="street" placeholder="Digite o endereço"
+                                    <input class="form-control" type="text" name="street"
+                                           placeholder="Digite o endereço"
                                            required>
                                 </div>
 
@@ -88,7 +90,8 @@
 
                                 <div class="m-t-20">
                                     <span class="text-form-03">Complemento(Opcional)</span>
-                                    <input class="form-control" type="text" name="complement" placeholder="Digite o complemento">
+                                    <input class="form-control" type="text" name="complement"
+                                           placeholder="Digite o complemento">
                                 </div>
 
                                 <div class="m-t-20">
@@ -148,21 +151,23 @@
                                 <div class="m-t-20">
                                     <span class="text-form-03">Nome Completo</span>
                                     <input class="form-control" type="text"
+                                           name="full_name"
                                            placeholder="Digite o nome completo"
                                            required>
                                 </div>
                                 <div class="m-t-20">
                                     <span class="text-form-03">CPF</span>
-                                    <input class="form-control" type="text" placeholder="Digite o CPF"
+                                    <input class="form-control" type="text" name="document" placeholder="Digite o CPF"
                                            required>
                                 </div>
                                 <div class="m-t-20">
                                     <span class="text-form-03">RG</span>
-                                    <input class="form-control" type="text" placeholder="Digite o RG" required>
+                                    <input class="form-control" type="text" name="document_secondary"
+                                           placeholder="Digite o RG" required>
                                 </div>
                                 <div class="m-t-20">
                                     <span class="text-form-03">Orgão Emissor</span>
-                                    <input class="form-control" type="text"
+                                    <input class="form-control" type="text" name="document_secondary_complement"
                                            placeholder="Digite o orgão emissor"
                                            required>
                                 </div>
@@ -187,16 +192,16 @@
                                 </div>
                                 <div class="m-t-20">
                                     <span class="text-form-03">Dígito</span>
-                                    <input class="form-control" type="text" name="email"
+                                    <input class="form-control" type="text" name="digit"
                                            placeholder="Digite o dígito da conta">
                                 </div>
                                 <div class="m-t-20">
                                     <div class="form-group">
                                 <span
                                     class="text-form-03">Esta conta bancária está vínculada ao CNPJ do distribuidora?</span>
-                                        <select class="form-control">
-                                            <option>Sim</option>
-                                            <option>Não</option>
+                                        <select class="form-control" name="is_linked">
+                                            <option value="true">Sim</option>
+                                            <option value="false">Não</option>
                                         </select>
                                     </div>
                                 </div>
