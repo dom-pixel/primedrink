@@ -20,16 +20,16 @@
                                 <th>#</th>
                                 <th>Nome</th>
                                 <th>E-mail</th>
-                                <th>Celular</th>
+                              {{--  <th>Celular</th>--}}
                             </tr>
                             </thead>
                             <tbody>
-                            @foreach($subscriptions as $subscription)
+                            @foreach($users as $user)
                                 <tr>
-                                    <td>{{$subscription->id}}</td>
-                                    <td>{{$subscription->name}}</td>
-                                    <td>{{$subscription->email}}</td>
-                                    <td class="celular">{{$subscription->cell}}</td>
+                                    <td>{{$user->id}}</td>
+                                    <td>{{$user->name}}</td>
+                                    <td>{{$user->email}}</td>
+                                 {{--   <td class="celular">{{$subscription->cell}}</td>--}}
                                 </tr>
                             @endforeach
                             </tbody>

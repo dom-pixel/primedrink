@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Subscription;
+use App\User;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -24,7 +25,8 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $subscriptions = Subscription::all();
-        return view('home', compact('subscriptions'));
+        /*  $subscriptions = Subscription::all();*/
+        $users = User::where('client', '1')->get();
+        return view('home', compact('users'));
     }
 }
