@@ -30,12 +30,12 @@ class LandingPageController extends Controller
             'toEmail' => $subscription->email
         ];
 
-   /*     try {
+       try {
             Mail::to($subscription->email)->send(new SendMailable($data));
             $subscription->save();
         } catch (\Exception $e) {
             return redirect()->back()->with('error', 'Ocorreu um erro com sua soliticação, tente novamente mais tarde!');
-        }*/
+        }
 
         return redirect()->route('showForm');
     }
@@ -49,5 +49,6 @@ class LandingPageController extends Controller
     public function register(Request $request)
     {
         $restaurant = Restaurant::create($request->except('email', 'password'));
+        return redirect()->route('landingPage')->with('success', 'Seu cadastro foi concluido com sucesso!');
     }
 }
