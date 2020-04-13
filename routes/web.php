@@ -23,10 +23,8 @@ Route::get('/register', 'Auth\RegisterController@showRegistrationForm')->name('r
 Route::post('/register', 'Auth\RegisterController@register');
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/teste', function () {
+Route::get('/register', function () {
     return view('form');
 });
 
-Route::post('/teste', function (Illuminate\Http\Request $request) {
-    dd($request->all());
-})->name('sendRegister');
+Route::post('/register', 'Web\LandingPageController@register')->name('sendRegister');

@@ -23,7 +23,7 @@
                                 <span class="step"></span>
                             </div>
                             <div class="tab">
-                                <h1>Sobre o restaurante:</h1>
+                                <h1>Sobre a Distribuidora/Empório:</h1>
                                 <div class="m-t-20">
                                     <span class="text-form-03">CNPJ</span>
                                     <input class="form-control" type="text" name="cnpj" placeholder="Digite o CNPJ"
@@ -147,7 +147,7 @@
                             </div>
 
                             <div class="tab">
-                                <h1>Sobre o dono do restaurante</h1>
+                                <h1>Sobre o dono da distribuidora/empório</h1>
                                 <div class="m-t-20">
                                     <span class="text-form-03">Nome Completo</span>
                                     <input class="form-control" type="text"

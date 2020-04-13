@@ -37,4 +37,9 @@ class LandingPageController extends Controller
 
         return redirect()->back()->with('success', 'Inscrição feita com sucesso!');
     }
+
+    public function register(Request $request)
+    {
+        dd($request->all());
+    }
 }
