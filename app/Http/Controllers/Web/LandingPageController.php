@@ -68,6 +68,17 @@ class LandingPageController extends Controller
         $user->admin = 0;
         $user->save();
 
+        $data = [
+            'full_name' => $request->full_name,
+            'email' => $request->email
+        ];
+
+        try {
+            Mail::to($request->email)->send(new SendMailable($data));
+        } catch (\Exception $e) {
+            return redirect()->back()->with('error', 'Ocorreu um erro com sua soliticação, tente novamente mais tarde!');
+        }
+
         return redirect()->route('landingPage')->with('success', 'Seu cadastro foi concluido com sucesso!');
     }
 }
