@@ -15,6 +15,7 @@ input.invalid {
 /* Hide all steps by default: */
 .tab {
     display: none;
+    margin: 20px;
 }
 
 /* Make circles that indicate the steps of the form: */
