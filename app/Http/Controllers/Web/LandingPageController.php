@@ -69,8 +69,8 @@ class LandingPageController extends Controller
         $user->save();
 
         $data = [
-            'full_name' => $request->full_name,
-            'email' => $request->email
+            'toName' => $request->full_name,
+            'toEmail' => $request->email
         ];
 
         try {
