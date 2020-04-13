@@ -45,6 +45,6 @@ class User extends Authenticatable
 
     public function restaurant()
     {
-        return $this->hasOne('App\Restaurant', 'restaurant_id', 'id');
+        return $this->hasOne('App\Restaurant');
     }
 }
