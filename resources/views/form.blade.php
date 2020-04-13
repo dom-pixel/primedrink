@@ -67,62 +67,62 @@
                                 <h1>Sobre o restaurante:</h1>
                                 <div class="m-t-20">
                                     <span class="text-form-03">CNPJ</span>
-                                    <input class="form-control required" type="text" placeholder="Digite o CNPJ"
+                                    <input class="form-control" type="text" placeholder="Digite o CNPJ"
                                            required>
                                 </div>
 
                                 <div class="m-t-20">
                                     <span class="text-form-03">Razão Social</span>
-                                    <input class="form-control required" type="text" placeholder="Digite a razão social"
+                                    <input class="form-control" type="text" placeholder="Digite a razão social"
                                            required>
                                 </div>
 
                                 <div class="m-t-20">
                                     <span class="text-form-03">Nome da Distribuidora/Empório</span>
-                                    <input class="form-control required" type="text"
+                                    <input class="form-control" type="text"
                                            placeholder="Digite o nome da distribuidora/empório"
                                            required>
                                 </div>
 
                                 <div class="m-t-20">
                                     <span class="text-form-03">Telefone</span>
-                                    <input class="form-control required" type="text" placeholder="Digite o telefone"
+                                    <input class="form-control" type="text" placeholder="Digite o telefone"
                                            required>
                                 </div>
 
                                 <div class="m-t-20">
                                     <span class="text-form-03">CEP</span>
-                                    <input class="form-control required" type="text" placeholder="Digite o CEP"
+                                    <input class="form-control" type="text" placeholder="Digite o CEP"
                                            required>
                                 </div>
 
                                 <div class="m-t-20">
                                     <span class="text-form-03">Cidade</span>
-                                    <input class="form-control required" type="text" placeholder="Digite a cidade"
+                                    <input class="form-control" type="text" placeholder="Digite a cidade"
                                            required>
                                 </div>
 
                                 <div class="m-t-20">
                                     <span class="text-form-03">Estado</span>
-                                    <input class="form-control required" type="text" placeholder="Digite o estado"
+                                    <input class="form-control" type="text" placeholder="Digite o estado"
                                            required>
                                 </div>
 
                                 <div class="m-t-20">
                                     <span class="text-form-03">Bairro</span>
-                                    <input class="form-control required" type="text" placeholder="Digite o bairro"
+                                    <input class="form-control" type="text" placeholder="Digite o bairro"
                                            required>
                                 </div>
 
                                 <div class="m-t-20">
                                     <span class="text-form-03">Endereço</span>
-                                    <input class="form-control required" type="text" placeholder="Digite o endereço"
+                                    <input class="form-control" type="text" placeholder="Digite o endereço"
                                            required>
                                 </div>
 
                                 <div class="m-t-20">
                                     <span class="text-form-03">Número</span>
-                                    <input class="form-control required" type="text" placeholder="Digite o número"
+                                    <input class="form-control" type="text" placeholder="Digite o número"
                                            required>
                                 </div>
 
@@ -134,7 +134,7 @@
                                 <div class="m-t-20">
                                     <div class="form-group">
                                         <span class="text-form-03">Especialidade</span>
-                                        <select class="form-control required">
+                                        <select class="form-control">
                                             <option>Distribuidora</option>
                                             <option>Empório</option>
                                             <option>Conveniência</option>
@@ -147,7 +147,7 @@
                                 <div class="m-t-20">
                                     <div class="form-group">
                                         <span class="text-form-03">Você já possui serviço de entrega?</span>
-                                        <select class="form-control required">
+                                        <select class="form-control">
                                             <option>Sim</option>
                                             <option>Não</option>
                                         </select>
@@ -156,9 +156,19 @@
                             </div>
 
                             <div class="tab"><h1>Planos disponíveis</h1>
-                                <span class="text-form-03">Plano 1</span>
                                 <div class="m-t-20">
-                                    <input class="form-control required" placeholder="First name...">
+                                    <div class="text-center">
+                                        <img src="{{asset('images/2.png')}}" class="aligncenter" width="212"
+                                             alt="alt here">
+                                        <span class="text-form-00">PRIME PLUS</span>
+                                    </div>
+                                    <i class="fa fa-check"></i>
+                                    <p class="text-info-prime-1">Entrega realizada atráves dos nossos parceiros de logística.</p>
+                                    <p class="text-info-prime-1">Não possuimos fidelidade, cancele o plano quando desejar.</p>
+                                    <p class="text-info-prime-1">15% sobre o valor dos pedidos, incluindo taxa de entrega. (Mais 3,7% para
+                                        pagamento on-line)</p>
+                                    <p class="text-info-prime-1">Mensalidade de R$150 por mês, apenas se você faturar mais que R$5.000,00
+                                        mensais.</p>
                                 </div>
                             </div>
 
@@ -166,22 +176,22 @@
                                 <h1>Sobre o dono do restaurante</h1>
                                 <div class="m-t-20">
                                     <span class="text-form-03">Nome Completo</span>
-                                    <input class="form-control required" type="text"
+                                    <input class="form-control" type="text"
                                            placeholder="Digite o nome completo"
                                            required>
                                 </div>
                                 <div class="m-t-20">
                                     <span class="text-form-03">CPF</span>
-                                    <input class="form-control required" type="text" placeholder="Digite o CPF"
+                                    <input class="form-control" type="text" placeholder="Digite o CPF"
                                            required>
                                 </div>
                                 <div class="m-t-20">
                                     <span class="text-form-03">RG</span>
-                                    <input class="form-control required" type="text" placeholder="Digite o RG" required>
+                                    <input class="form-control" type="text" placeholder="Digite o RG" required>
                                 </div>
                                 <div class="m-t-20">
                                     <span class="text-form-03">Orgão Emissor</span>
-                                    <input class="form-control required" type="text"
+                                    <input class="form-control" type="text"
                                            placeholder="Digite o orgão emissor"
                                            required>
                                 </div>
@@ -191,29 +201,29 @@
                                 <h1>Dados bancários para o recebimento</h1>
                                 <span class="text-form-03">Banco</span>
                                 <div class="m-t-20">
-                                    <input class="form-control required" type="text" name="bank_id"
+                                    <input class="form-control" type="text" name="bank_id"
                                            placeholder="Selecione o Banco">
                                 </div>
                                 <span class="text-form-03">Agência</span>
                                 <div class="m-t-20">
-                                    <input class="form-control required" type="text" name="agency"
+                                    <input class="form-control" type="text" name="agency"
                                            placeholder="Digite o código da agência">
                                 </div>
                                 <span class="text-form-03">Conta</span>
                                 <div class="m-t-20">
-                                    <input class="form-control required" type="text" name="account"
+                                    <input class="form-control" type="text" name="account"
                                            placeholder="Digite o número da conta">
                                 </div>
                                 <span class="text-form-03">Dígito</span>
                                 <div class="m-t-20">
-                                    <input class="form-control required" type="text" name="email"
+                                    <input class="form-control" type="text" name="email"
                                            placeholder="Digite o dígito da conta">
                                 </div>
                                 <div class="m-t-20">
                                     <div class="form-group">
                                 <span
                                     class="text-form-03">Esta conta bancária está vínculada ao CNPJ do distribuidora?</span>
-                                        <select class="form-control required">
+                                        <select class="form-control">
                                             <option>Sim</option>
                                             <option>Não</option>
                                         </select>
@@ -225,13 +235,13 @@
                                 <h1>Quase pronto! Agora crie sua senha</h1>
                                 <div class="m-t-20">
                                     <span class="text-form-03">Login</span>
-                                    <input class="form-control required" name="email" type="email"
+                                    <input class="form-control" name="email" type="email"
                                            placeholder="Digite o seu email"
                                            required>
                                 </div>
                                 <div class="m-t-20">
                                     <span class="text-form-03">Senha</span>
-                                    <input class="form-control required" name="password" type="password"
+                                    <input class="form-control" name="password" type="password"
                                            placeholder="Digite uma senha"
                                            required>
                                 </div>

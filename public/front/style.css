@@ -5669,6 +5669,13 @@ body::-webkit-scrollbar-thumb {
     margin-top: 80px;
 }
 
+.text-form-00 {
+    color: #000;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Montserrat", "Open Sans Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 .text-form-01 {
     color: #000;
     font-size: 21px;
