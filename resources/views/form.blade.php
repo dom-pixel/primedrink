@@ -163,6 +163,14 @@
                                            required>
                                 </div>
                                 <div class="m-t-20">
+                                    <div class="m-b-10">Telefone para contato</div>
+                                    <input class="form-control required" type="text"
+                                           name="cell"
+                                           placeholder="Digite o seu nome"
+                                           value="{{session('cell')?? 'Digite o seu telefone'}}"
+                                           required>
+                                </div>
+                                <div class="m-t-20">
                                     <div class="m-b-10">CPF</div>
                                     <input class="form-control required" type="text" name="document"
                                            placeholder="Digite o CPF"

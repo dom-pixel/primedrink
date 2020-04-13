@@ -38,6 +38,7 @@ class LandingPageController extends Controller
 
         $request->session()->put('full_name', $request->name);
         $request->session()->put('email', $request->email);
+        $request->session()->put('cell', $request->cell);
 
         /* try {
               Mail::to($subscription->email)->send(new SendMailable($data));
@@ -62,6 +63,7 @@ class LandingPageController extends Controller
         $user = new User();
         $user->name = $request->full_name;
         $user->email = $request->email;
+        $user->cell = $request->cell;
         $user->password = bcrypt($request->password);
         $user->restaurant_id = $restaurant->id;
         $user->client = 1;
