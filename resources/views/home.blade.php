@@ -30,10 +30,10 @@
                                 <tr>
                                     <td>{{$user->id}}</td>
                                     <td>{{$user->name}}</td>
-                                    <td>{{$user->restaurant()->trading_name}}</td>
+                                    <td>{{$user->restaurant->trading_name}}</td>
                                     <td>{{$user->email}}</td>
                                     <td class="celular">{{$user->cell}}</td>
-                                    <td>{{$user->restaurant()->city}}/restaurant()->state</td>
+                                    <td>{{$user->restaurant->city}}/restaurant()->state</td>
                                 </tr>
                             @endforeach
                             </tbody>
