@@ -15,6 +15,7 @@ class AlterUsersTable extends Migration
     {
         Schema::table('users', function (Blueprint $table) {
             $table->unsignedBigInteger('restaurant_id')->nullable();
+            $table->string('cell')->nullable();
             $table->foreign('restaurant_id')->references('id')->on('restaurants');
             $table->boolean('admin')->nullable();
             $table->boolean('client')->nullable();
