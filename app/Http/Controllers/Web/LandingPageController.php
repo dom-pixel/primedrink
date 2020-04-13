@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Web;
 
+use App\Bank;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\SendMailableRequest;
 use App\Mail\SendMailable;
@@ -38,8 +39,14 @@ class LandingPageController extends Controller
         return redirect()->back()->with('success', 'Inscrição feita com sucesso!');
     }
 
+    public function form()
+    {
+        $banks = Bank::all();
+        return view('form', compact('banks'));
+    }
+
     public function register(Request $request)
     {
-        dd($request->all());
+
     }
 }

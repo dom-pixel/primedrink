@@ -23,8 +23,6 @@ Route::get('/register', 'Auth\RegisterController@showRegistrationForm')->name('r
 Route::post('/register', 'Auth\RegisterController@register');
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/register', function () {
-    return view('form');
-});
+Route::get('/registro', 'Web\LandingPageController@form')->name('showForm');
 
-Route::post('/register', 'Web\LandingPageController@register')->name('sendRegister');
+Route::post('/registro', 'Web\LandingPageController@register')->name('sendRegister');

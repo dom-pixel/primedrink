@@ -177,8 +177,11 @@
                                 <h1>Dados bancários para o recebimento</h1>
                                 <div class="m-t-20">
                                     <span class="text-form-03">Banco</span>
-                                    <input class="form-control" type="text" name="bank_id"
-                                           placeholder="Selecione o Banco">
+                                    <select class="form-control" name="bank_id">
+                                        @foreach($banks as $bank)
+                                            <option value="{{$bank->id}}">{{$bank->name}}</option>
+                                        @endforeach
+                                    </select>
                                 </div>
                                 <div class="m-t-20">
                                     <span class="text-form-03">Agência</span>
