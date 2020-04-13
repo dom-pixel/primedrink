@@ -13,14 +13,16 @@
                                 {{ session('status') }}
                             </div>
                         @endif
-
                         <table class="table table-sm table-responsive">
                             <thead>
                             <tr>
                                 <th>#</th>
                                 <th>Nome</th>
+                                <th>Estabelecimento</th>
                                 <th>E-mail</th>
-                              {{--  <th>Celular</th>--}}
+                                <th>Celular</th>
+                                <th>Cidade/Estado
+                                <th>
                             </tr>
                             </thead>
                             <tbody>
@@ -28,8 +30,10 @@
                                 <tr>
                                     <td>{{$user->id}}</td>
                                     <td>{{$user->name}}</td>
+                                    <td>{{$user->restaurant()->trading_name}}</td>
                                     <td>{{$user->email}}</td>
-                                 {{--   <td class="celular">{{$subscription->cell}}</td>--}}
+                                    <td class="celular">{{$user->cell}}</td>
+                                    <td>{{$user->restaurant()->city}}/restaurant()->state</td>
                                 </tr>
                             @endforeach
                             </tbody>

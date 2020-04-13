@@ -46,4 +46,9 @@ class Restaurant extends Model
     {
         $this->attributes['is_linked'] = ($value === true || $value === 'on' ? 1 : 0);
     }
+
+    public function user()
+    {
+        return $this->belongsTo('App\User');
+    }
 }
