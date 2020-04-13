@@ -20,27 +20,32 @@ class LandingPageController extends Controller
 
     public function mail(SendMailableRequest $request)
     {
-        $subscription = new Subscription();
-        $subscription->name = $request->name;
-        $subscription->email = $request->email;
-        $subscription->cell = $request->cell;
+        /*        $subscription = new Subscription();
+                $subscription->name = $request->name;
+                $subscription->email = $request->email;
+                $subscription->cell = $request->cell;
+
+                $data = [
+                    'toName' => $subscription->name,
+                    'toEmail' => $subscription->email
+                ];*/
 
         $data = [
-            'toName' => $subscription->name,
-            'toEmail' => $subscription->email
+            'full_name' => $request->name,
+            'email' => $request->email
         ];
 
-       try {
-            Mail::to($subscription->email)->send(new SendMailable($data));
-            $subscription->save();
-        } catch (\Exception $e) {
-            return redirect()->back()->with('error', 'Ocorreu um erro com sua soliticação, tente novamente mais tarde!');
-        }
+        /* try {
+              Mail::to($subscription->email)->send(new SendMailable($data));
+              $subscription->save();
+          } catch (\Exception $e) {
+              return redirect()->back()->with('error', 'Ocorreu um erro com sua soliticação, tente novamente mais tarde!');
+          }*/
 
-        return redirect()->route('showForm');
+        return redirect()->route('showForm')->with();
     }
 
-    public function form()
+    public function form(Request $request)
     {
         $banks = Bank::all();
         return view('form', compact('banks'));

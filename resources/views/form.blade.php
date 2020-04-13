@@ -10,7 +10,6 @@
                 <img src="{{asset('images/logo-full.png')}}" class="aligncenter" width="212" alt="alt here">
                 <form id="regForm" action="{{ route('sendRegister') }}" method="POST">
                     <div class="col-md-2 col-sm-2"></div>
-
                     <div class="col-md-8 col-sm-8">
                         <div class="content-form-home">
                         @csrf
@@ -26,7 +25,8 @@
                                 <h1>Sobre a Distribuidora/Empório:</h1>
                                 <div class="m-t-20">
                                     <div class="m-b-10">CNPJ</div>
-                                    <input class="form-control required" type="text" name="cnpj" placeholder="Digite o CNPJ"
+                                    <input class="form-control required" type="text" name="cnpj"
+                                           placeholder="Digite o CNPJ"
                                            required>
                                 </div>
 
@@ -46,25 +46,29 @@
 
                                 <div class="m-t-20">
                                     <div class="m-b-10">Telefone</div>
-                                    <input class="form-control required" type="text" name="phone" placeholder="Digite o telefone"
+                                    <input class="form-control required" type="text" name="phone"
+                                           placeholder="Digite o telefone"
                                            required>
                                 </div>
 
                                 <div class="m-t-20">
                                     <div class="m-b-10">CEP</div>
-                                    <input class="form-control required" type="text" name="zipcode" placeholder="Digite o CEP"
+                                    <input class="form-control required" type="text" name="zipcode"
+                                           placeholder="Digite o CEP"
                                            required>
                                 </div>
 
                                 <div class="m-t-20">
                                     <div class="m-b-10">Cidade</div>
-                                    <input class="form-control required" type="text" name="city" placeholder="Digite a cidade"
+                                    <input class="form-control required" type="text" name="city"
+                                           placeholder="Digite a cidade"
                                            required>
                                 </div>
 
                                 <div class="m-t-20">
                                     <div class="m-b-10">Estado</div>
-                                    <input class="form-control required" type="text" name="state" placeholder="Digite o estado"
+                                    <input class="form-control required" type="text" name="state"
+                                           placeholder="Digite o estado"
                                            required>
                                 </div>
 
@@ -84,7 +88,8 @@
 
                                 <div class="m-t-20">
                                     <div class="m-b-10">Número</div>
-                                    <input class="form-control required" type="text" name="number" placeholder="Digite o número"
+                                    <input class="form-control required" type="text" name="number"
+                                           placeholder="Digite o número"
                                            required>
                                 </div>
 
@@ -153,12 +158,14 @@
                                     <div class="m-b-10">Nome Completo</div>
                                     <input class="form-control required" type="text"
                                            name="full_name"
-                                           placeholder="Digite o nome completo"
+                                           placeholder="Digite o seu nome"
+                                           value="{{$data['full_name'] ?? 'Digite o seu nome'}}"
                                            required>
                                 </div>
                                 <div class="m-t-20">
                                     <div class="m-b-10">CPF</div>
-                                    <input class="form-control required" type="text" name="document" placeholder="Digite o CPF"
+                                    <input class="form-control required" type="text" name="document"
+                                           placeholder="Digite o CPF"
                                            required>
                                 </div>
                                 <div class="m-t-20">
@@ -168,7 +175,8 @@
                                 </div>
                                 <div class="m-t-20">
                                     <div class="m-b-10">Orgão Emissor</div>
-                                    <input class="form-control required" type="text" name="document_secondary_complement"
+                                    <input class="form-control required" type="text"
+                                           name="document_secondary_complement"
                                            placeholder="Digite o orgão emissor"
                                            required>
                                 </div>
@@ -218,6 +226,7 @@
                                     <div class="m-b-10">Login</div>
                                     <input class="form-control required" name="email" type="email"
                                            placeholder="Digite o seu email"
+                                           value="{{$data['email'] ?? 'Digite o seu email'}}"
                                            required>
                                 </div>
                                 <div class="m-t-20">
