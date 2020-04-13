@@ -26,65 +26,65 @@
                                 <h1>Sobre a Distribuidora/Empório:</h1>
                                 <div class="m-t-20">
                                     <div class="m-b-10">CNPJ</div>
-                                    <input class="form-control" type="text" name="cnpj" placeholder="Digite o CNPJ"
+                                    <input class="form-control required" type="text" name="cnpj" placeholder="Digite o CNPJ"
                                            required>
                                 </div>
 
                                 <div class="m-t-20">
                                     <div class="m-b-10">Razão Social</div>
-                                    <input class="form-control" type="text" name="company_name"
+                                    <input class="form-control required" type="text" name="company_name"
                                            placeholder="Digite a razão social"
                                            required>
                                 </div>
 
                                 <div class="m-t-20">
                                     <div class="m-b-10">Nome da Distribuidora/Empório</div>
-                                    <input class="form-control" type="text" name="trading_name"
+                                    <input class="form-control required" type="text" name="trading_name"
                                            placeholder="Digite o nome da distribuidora/empório"
                                            required>
                                 </div>
 
                                 <div class="m-t-20">
                                     <div class="m-b-10">Telefone</div>
-                                    <input class="form-control" type="text" name="phone" placeholder="Digite o telefone"
+                                    <input class="form-control required" type="text" name="phone" placeholder="Digite o telefone"
                                            required>
                                 </div>
 
                                 <div class="m-t-20">
                                     <div class="m-b-10">CEP</div>
-                                    <input class="form-control" type="text" name="zipcode" placeholder="Digite o CEP"
+                                    <input class="form-control required" type="text" name="zipcode" placeholder="Digite o CEP"
                                            required>
                                 </div>
 
                                 <div class="m-t-20">
                                     <div class="m-b-10">Cidade</div>
-                                    <input class="form-control" type="text" name="city" placeholder="Digite a cidade"
+                                    <input class="form-control required" type="text" name="city" placeholder="Digite a cidade"
                                            required>
                                 </div>
 
                                 <div class="m-t-20">
                                     <div class="m-b-10">Estado</div>
-                                    <input class="form-control" type="text" name="state" placeholder="Digite o estado"
+                                    <input class="form-control required" type="text" name="state" placeholder="Digite o estado"
                                            required>
                                 </div>
 
                                 <div class="m-t-20">
                                     <div class="m-b-10">Bairro</div>
-                                    <input class="form-control" type="text" name="neighborhood"
+                                    <input class="form-control required" type="text" name="neighborhood"
                                            placeholder="Digite o bairro"
                                            required>
                                 </div>
 
                                 <div class="m-t-20">
                                     <div class="m-b-10">Endereço</div>
-                                    <input class="form-control" type="text" name="street"
+                                    <input class="form-control required" type="text" name="street"
                                            placeholder="Digite o endereço"
                                            required>
                                 </div>
 
                                 <div class="m-t-20">
                                     <div class="m-b-10">Número</div>
-                                    <input class="form-control" type="text" name="number" placeholder="Digite o número"
+                                    <input class="form-control required" type="text" name="number" placeholder="Digite o número"
                                            required>
                                 </div>
 
@@ -97,7 +97,7 @@
                                 <div class="m-t-20">
                                     <div class="form-group">
                                         <div class="m-b-10">Especialidade</div>
-                                        <select class="form-control" name="business">
+                                        <select class="form-control required" name="business">
                                             <option value="Distribuidora">Distribuidora</option>
                                             <option value="Empório">Empório</option>
                                             <option value="Conveniência">Conveniência</option>
@@ -110,7 +110,7 @@
                                 <div class="m-t-20">
                                     <div class="form-group">
                                         <div class="m-b-10">Você já possui serviço de entrega?</div>
-                                        <select class="form-control" name="delivery">
+                                        <select class="form-control required" name="delivery">
                                             <option value="on">Sim</option>
                                             <option value="off">Não</option>
                                         </select>
@@ -151,24 +151,24 @@
                                 <h1>Sobre o dono da distribuidora/empório</h1>
                                 <div class="m-t-20">
                                     <div class="m-b-10">Nome Completo</div>
-                                    <input class="form-control" type="text"
+                                    <input class="form-control required" type="text"
                                            name="full_name"
                                            placeholder="Digite o nome completo"
                                            required>
                                 </div>
                                 <div class="m-t-20">
                                     <div class="m-b-10">CPF</div>
-                                    <input class="form-control" type="text" name="document" placeholder="Digite o CPF"
+                                    <input class="form-control required" type="text" name="document" placeholder="Digite o CPF"
                                            required>
                                 </div>
                                 <div class="m-t-20">
                                     <div class="m-b-10">RG</div>
-                                    <input class="form-control" type="text" name="document_secondary"
+                                    <input class="form-control required" type="text" name="document_secondary"
                                            placeholder="Digite o RG" required>
                                 </div>
                                 <div class="m-t-20">
                                     <div class="m-b-10">Orgão Emissor</div>
-                                    <input class="form-control" type="text" name="document_secondary_complement"
+                                    <input class="form-control required" type="text" name="document_secondary_complement"
                                            placeholder="Digite o orgão emissor"
                                            required>
                                 </div>
@@ -178,7 +178,7 @@
                                 <h1>Dados bancários para o recebimento</h1>
                                 <div class="m-t-20">
                                     <div class="m-b-10">Banco</div>
-                                    <select class="form-control" name="bank_id">
+                                    <select class="form-control required" name="bank_id">
                                         @foreach($banks as $bank)
                                             <option value="{{$bank->id}}">{{$bank->name}}</option>
                                         @endforeach
@@ -186,17 +186,17 @@
                                 </div>
                                 <div class="m-t-20">
                                     <div class="m-b-10">Agência</div>
-                                    <input class="form-control" type="text" name="agency"
+                                    <input class="form-control required" type="text" name="agency"
                                            placeholder="Digite o código da agência">
                                 </div>
                                 <div class="m-t-20">
                                     <div class="m-b-10">Conta</div>
-                                    <input class="form-control" type="text" name="account"
+                                    <input class="form-control required" type="text" name="account"
                                            placeholder="Digite o número da conta">
                                 </div>
                                 <div class="m-t-20">
                                     <div class="m-b-10">Dígito</div>
-                                    <input class="form-control" type="text" name="digit"
+                                    <input class="form-control required" type="text" name="digit"
                                            placeholder="Digite o dígito da conta">
                                 </div>
                                 <div class="m-t-20">
@@ -204,7 +204,7 @@
                                         <div class="m-b-10">Esta conta bancária está vínculada ao CNPJ do
                                             distribuidora?
                                         </div>
-                                        <select class="form-control" name="is_linked">
+                                        <select class="form-control required" name="is_linked">
                                             <option value="true">Sim</option>
                                             <option value="false">Não</option>
                                         </select>
@@ -216,19 +216,19 @@
                                 <h1>Quase pronto! Agora crie sua senha</h1>
                                 <div class="m-t-20">
                                     <div class="m-b-10">Login</div>
-                                    <input class="form-control" name="email" type="email"
+                                    <input class="form-control required" name="email" type="email"
                                            placeholder="Digite o seu email"
                                            required>
                                 </div>
                                 <div class="m-t-20">
                                     <div class="m-b-10">Senha</div>
-                                    <input class="form-control" name="password" type="password"
+                                    <input class="form-control required" name="password" type="password"
                                            placeholder="Digite uma senha"
                                            required>
                                 </div>
                             </div>
 
-                            <div style="overflow:auto;">
+                            <div style="overflow:auto; margin: 20px;">
                                 <div style="float:right;">
                                     <div class="m-t-10">
                                         <button type="button" class="btn-sm btn-danger" id="prevBtn"
