@@ -7,6 +7,9 @@
                 <div class="card">
                     <div class="card-header">Informações da distribuidora/empório '{{$restaurant->trading_name}}'</div>
                     <div class="card-body">
+                        <a class="btn btn-link" href="{{ route('home') }}">
+                            Voltar
+                        </a>
                         <b><p class="text-dark">Informações da Distribuidora/Empório:</p></b>
                         <p>Razão Social: {{$restaurant->company_name}}</p>
                         <p>Fantasia: {{$restaurant->trading_name}}</p>
