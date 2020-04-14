@@ -23,6 +23,7 @@ Route::get('/register', 'Auth\RegisterController@showRegistrationForm')->name('r
 Route::post('/register', 'Auth\RegisterController@register');
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/restaurante/{id}', 'HomeController@show')->name('info');
 Route::get('/cadastro', 'Web\LandingPageController@form')->name('showForm');
 
 Route::post('/registro', 'Web\LandingPageController@register')->name('sendRegister');

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Restaurant;
 use App\Subscription;
 use App\User;
 use Illuminate\Http\Request;
@@ -28,5 +29,11 @@ class HomeController extends Controller
         /*  $subscriptions = Subscription::all();*/
         $users = User::where('client', '1')->get();
         return view('home', compact('users'));
+    }
+
+    public function show($id)
+    {
+        $restaurant = Restaurant::find($id);
+        return view('restaurant', compact('restaurant'));
     }
 }

@@ -23,7 +23,6 @@
                                 <th>Celular</th>
                                 <th>Cidade/Estado
                                 <th>
-                                <th>Mais Informações</th>
                             </tr>
                             </thead>
                             <tbody>
@@ -35,7 +34,6 @@
                                     <td>{{$user->email}}</td>
                                     <td class="celular">{{$user->cell}}</td>
                                     <td>{{$user->restaurant->city}}/ {{$user->restaurant->state}}</td>
-                                    <td><a href="{{route('info', ['id'=>$user->restaurant_id])}}">Sobre o local</a></td>
                                 </tr>
                             @endforeach
                             </tbody>
