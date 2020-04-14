@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-12">
-                <div class="card col-12">
+                <div class="card">
                     <div class="card-header">Informações do {{$restaurant->trading_name}}</div>
                     <div class="card-body">
                         <p class="sub-header">Formulário de edição de dados cadastrais. </p>
