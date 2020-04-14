@@ -21,8 +21,7 @@
                                 <th>Estabelecimento</th>
                                 <th>E-mail</th>
                                 <th>Celular</th>
-                                <th>Cidade/Estado
-                                <th>
+                                <th>Cidade/Estado<th>
                                 <th>Mais Informações</th>
                             </tr>
                             </thead>
