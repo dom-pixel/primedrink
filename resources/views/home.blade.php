@@ -34,9 +34,8 @@
                                     <td class="celular">{{$user->cell}}</td>
                                     <td>{{$user->restaurant->city}}/ {{$user->restaurant->state}}</td>
                                     <td>
-                                        <button class="btn btn-primary"><a class="btn btn-link"
-                                                                           href="{{route('info', ['id'=>$user->restaurant_id])}}">Sobre
-                                                o local</a></button>
+                                        <a class="btn btn-block" href="{{route('info', ['id'=>$user->restaurant_id])}}">Sobre
+                                            o local</a>
                                     </td>
                                 </tr>
                             @endforeach
