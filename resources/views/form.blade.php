@@ -25,7 +25,7 @@
                                 <h1>Sobre a Distribuidora/Empório:</h1>
                                 <div class="m-t-20">
                                     <div class="m-b-10">CNPJ</div>
-                                    <input class="form-control required" type="text" name="cnpj"
+                                    <input class="form-control required cnpj" type="text" name="cnpj"
                                            placeholder="Digite o CNPJ"
                                            required>
                                 </div>
@@ -46,42 +46,42 @@
 
                                 <div class="m-t-20">
                                     <div class="m-b-10">Telefone</div>
-                                    <input class="form-control required" type="text" name="phone"
+                                    <input class="form-control required celular" type="text" name="phone"
                                            placeholder="Digite o telefone"
                                            required>
                                 </div>
 
                                 <div class="m-t-20">
                                     <div class="m-b-10">CEP</div>
-                                    <input class="form-control required" type="text" name="zipcode"
+                                    <input class="form-control required cep"  id="cep" type="text" name="zipcode"
                                            placeholder="Digite o CEP"
                                            required>
                                 </div>
 
                                 <div class="m-t-20">
                                     <div class="m-b-10">Cidade</div>
-                                    <input class="form-control required" type="text" name="city"
+                                    <input class="form-control required cidade" type="text" name="city"
                                            placeholder="Digite a cidade"
                                            required>
                                 </div>
 
                                 <div class="m-t-20">
                                     <div class="m-b-10">Estado</div>
-                                    <input class="form-control required" type="text" name="state"
+                                    <input class="form-control required estado" type="text" name="state"
                                            placeholder="Digite o estado"
                                            required>
                                 </div>
 
                                 <div class="m-t-20">
                                     <div class="m-b-10">Bairro</div>
-                                    <input class="form-control required" type="text" name="neighborhood"
+                                    <input class="form-control required bairro" type="text" name="neighborhood"
                                            placeholder="Digite o bairro"
                                            required>
                                 </div>
 
                                 <div class="m-t-20">
                                     <div class="m-b-10">Endereço</div>
-                                    <input class="form-control required" type="text" name="street"
+                                    <input class="form-control required logradouro" type="text" name="street"
                                            placeholder="Digite o endereço"
                                            required>
                                 </div>
@@ -164,7 +164,7 @@
                                 </div>
                                 <div class="m-t-20">
                                     <div class="m-b-10">Telefone para contato</div>
-                                    <input class="form-control required" type="text"
+                                    <input class="form-control required celular" type="text"
                                            name="cell"
                                            placeholder="Digite o seu nome"
                                            value="{{session('cell')?? 'Digite o seu telefone'}}"
@@ -172,7 +172,7 @@
                                 </div>
                                 <div class="m-t-20">
                                     <div class="m-b-10">CPF</div>
-                                    <input class="form-control required" type="text" name="document"
+                                    <input class="form-control required cpf" type="text" name="document"
                                            placeholder="Digite o CPF"
                                            required>
                                 </div>
