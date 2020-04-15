@@ -217,13 +217,16 @@
                                                      src="{{asset('images/004.png')}}">
 
                                                 <span class="text-info-visao">
-                                                VISÃO
+                                                Quem Somos
                                             </span>
                                             </div>
 
                                             <div class="m-t-20" style="text-align: justify;">
-                                            <span style="color: #fff;">
-                                                Nesse local ficará um texto explicando referente a VISÃO, MISSÃO E VALORES. Aqui é onde vamos explicar sobre todos os pontos que deixam claro quais nosso objetivos no mercado e onde queremos chegar...
+                                            <span style="color: #000;">
+                                              A Prime Drink está mudando a forma do consumo de bebidas.
+                                                Com mercador consolidado e sucesso nas vendas, em dois anos ampliamos nossa abrangência e distribuidores.
+                                                Atualmente com atuação efetiva em três estados, os planos de expansâo em território nacional estão cada ves mais presentes na nossa realidade.
+                                                Munidos de muita tecnologia e um time formado com os profissionais mais feras do mercado, fornecemos aos nossos parceiros e clientes diferenciais que fazem da Prime Drink única quando o assunto é segurança, rapidez, conforto e, claro, bebidas.
                                             </span>
                                             </div>
                                         </div>
