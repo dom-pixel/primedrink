@@ -142,25 +142,21 @@
                             <div class="m-t-30">
                                 <div>
                                 <span class="text-footer-info">
-                                    Nesse espaço podemos colocar um texto falando um pouco mais sobre as regras que devem ser seguidas e algo que remete ao contrato geral de credenciamento.
                                 </span>
                                 </div>
 
                                 <div>
                                 <span class="text-footer-info">
-                                    Nesse espaço podemos colocar um texto falando um pouco mais sobre as regras que devem ser seguidas e algo que remete ao contrato geral de credenciamento.
                                 </span>
                                 </div>
 
                                 <div>
                                 <span class="text-footer-info">
-                                    Nesse espaço podemos colocar um texto falando um pouco mais sobre as regras que devem ser seguidas e algo que remete ao contrato geral de credenciamento.
                                 </span>
                                 </div>
 
                                 <div>
                                 <span class="text-footer-info">
-                                    Nesse espaço podemos colocar um texto falando um pouco mais sobre as regras que devem ser seguidas e algo que remete ao contrato geral de credenciamento.
                                 </span>
                                 </div>
                             </div>
