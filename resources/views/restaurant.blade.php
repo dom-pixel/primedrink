@@ -14,9 +14,7 @@
                         <p>Razão Social: {{$restaurant->company_name}}</p>
                         <p>Fantasia: {{$restaurant->trading_name}}</p>
                         <p>CNPJ: {{$restaurant->cnpj}}</p>
-                        <p>Telefone:
-                        <div class="celular">{{$restaurant->phone}}</div>
-                        </p>
+                        <p>Telefone:{{$restaurant->phone}} </p>
                         <p>Endereço: {{$restaurant->street}}, Nº{{$restaurant->number}},
                             Bairro {{$restaurant->neighborhood}}, {{$restaurant->complement}}, {{$restaurant->city}}
                             /{{$restaurant->state}}, {{$restaurant->zipcode}}</p>

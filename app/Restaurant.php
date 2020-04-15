@@ -62,6 +62,23 @@ class Restaurant extends Model
         $this->attributes['phone'] = (! empty($value) ? $this->clearField($value) : null);
     }
 
+    public function getPhoneAttribute($value)
+    {
+        if (empty($value)) {
+            return '';
+        }
+
+        if (strlen($value) == 10) {
+            return '(' . substr($value, 0, 2) . ')' . substr($value, 2, 4) . '-' . substr($value, 6);
+        }
+
+        if (strlen($value) == 11) {
+            return '(' . substr($value, 0, 2) . ')' . substr($value, 2, 5) . '-' . substr($value, 7);
+        }
+
+        return $value;
+    }
+
     public function getDocumentAttribute($value)
     {
         if (empty($value)) {
