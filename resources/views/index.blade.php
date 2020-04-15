@@ -7,7 +7,8 @@
                 <div class="col-md-7 col-sm-7"></div>
 
                 <div class="col-md-5 col-sm-5">
-                    <form action="{{ route('sendRegisterSubscription') }}" method="POST" data-toggle="validator" data-focus="false">
+                    <form action="{{ route('sendRegisterSubscription') }}" method="POST" data-toggle="validator"
+                          data-focus="false">
                         @csrf
                         <div class="content-form-home">
                             <!-- Mensagem de sucesso no cadastro e envio de e-mail -->
@@ -107,14 +108,13 @@
 
                                     <div class="m-t-50">
                                     <span class="text-info-prime-1">
-                                        Texto Prime <br>
-                                        Texto Prime
+                                        CADASTRO
                                     </span>
                                     </div>
 
                                     <div class="m-t-20">
                                     <span class="text-info-prime-2">
-                                        Aqui ficará um texto explicativo sobre algum conteúdo importante da Prime Drink Distribuidora
+                                       Rápido, fácil e seguro. Você envia suas informações e um de nossos especialistas entra em contato com você!
                                     </span>
                                     </div>
 
@@ -137,14 +137,13 @@
 
                                     <div class="m-t-50">
                                     <span class="text-info-prime-1">
-                                        Texto Prime <br>
-                                        Texto Prime
+                                        Ativação
                                     </span>
                                     </div>
 
                                     <div class="m-t-20">
                                     <span class="text-info-prime-2">
-                                        Aqui ficará um texto explicativo sobre algum conteúdo importante da Prime Drink Distribuidora
+                                       Você tem sua loja vendendo em menos de 24h. É só seguir todas as nossas dicas para configurar sua loja na Prime Drink.
                                     </span>
                                     </div>
 
@@ -167,14 +166,13 @@
 
                                     <div class="m-t-50">
                                     <span class="text-info-prime-1">
-                                        Texto Prime <br>
-                                        Texto Prime
+                                        Vendas
                                     </span>
                                     </div>
 
                                     <div class="m-t-20">
                                     <span class="text-info-prime-2">
-                                        Aqui ficará um texto explicativo sobre algum conteúdo importante da Prime Drink Distribuidora
+                                        Aumente o seu volume de vendas em até 30% através de um canal inovador.
                                     </span>
                                     </div>
 
