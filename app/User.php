@@ -53,6 +53,23 @@ class User extends Authenticatable
         $this->attributes['cell'] = (! empty($value) ? $this->clearField($value) : null);
     }
 
+    public function getCellAttribute($value)
+    {
+        if (empty($value)) {
+            return '';
+        }
+
+        if (strlen($value) == 10) {
+            return '(' . substr($value, 0, 2) . ')' . substr($value, 2, 4) . '-' . substr($value, 6);
+        }
+
+        if (strlen($value) == 11) {
+            return '(' . substr($value, 0, 2) . ')' . substr($value, 2, 5) . '-' . substr($value, 7);
+        }
+
+        return $value;
+    }
+
     private function clearField(?string $param)
     {
         if (empty($param)) {
