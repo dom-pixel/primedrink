@@ -51,6 +51,14 @@ function validateForm() {
         if (y[i].value == "" && required.match('.required')) {
             // add an "invalid" class to the field:
             y[i].className += " invalid";
+            y[i].id += ' invalid';
+            const element = document.getElementById(' invalid');
+            if (element) {
+                window.scroll({
+                    top: element.scrollTop,
+                    behavior: 'smooth',
+                })
+            }
             // and set the current valid status to false:
             valid = false;
         }
