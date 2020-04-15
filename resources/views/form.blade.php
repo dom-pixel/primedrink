@@ -167,7 +167,7 @@
                                     <input class="form-control required celular" type="text"
                                            name="cell"
                                            placeholder="Digite o seu nome"
-                                           value="{{session('cell')?? 'Digite o seu telefone'}}"
+                                           value="{{session('cell') ?? ''}}"
                                            required>
                                 </div>
                                 <div class="m-t-20">
