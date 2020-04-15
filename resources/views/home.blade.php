@@ -31,7 +31,7 @@
                                     <td>{{$user->name}}</td>
                                     <td>{{$user->restaurant->trading_name}}</td>
                                     <td>{{$user->email}}</td>
-                                    <td class="celular">{{$user->cell}}</td>
+                                    <td>{{$user->cell}}</td>
                                     <td>{{$user->restaurant->city}}/ {{$user->restaurant->state}}</td>
                                     <td>
                                         <a href="{{route('info', ['id'=>$user->restaurant_id])}}">Sobre
