@@ -118,11 +118,6 @@
                                     </span>
                                     </div>
 
-                                    <div class="m-t-30">
-                                    <span class="text-info-prime-3">
-                                        VEJA MAIS
-                                    </span>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -147,11 +142,6 @@
                                     </span>
                                     </div>
 
-                                    <div class="m-t-30">
-                                    <span class="text-info-prime-3">
-                                        VEJA MAIS
-                                    </span>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -176,11 +166,6 @@
                                     </span>
                                     </div>
 
-                                    <div class="m-t-30">
-                                    <span class="text-info-prime-3">
-                                        VEJA MAIS
-                                    </span>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -208,8 +193,8 @@
                      style="padding: 0px; visibility: visible; animation-duration: 1s; animation-delay: 0.1s;">
                     <div class="module">
                         <div class="blog-image">
-                            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                                <div class="carousel-inner" role="listbox">
+                            <div class=" slide" data-ride="">
+                                <div class="inner" role="listbox">
                                     <div class="item active">
                                         <div style="max-width: 380px; margin: auto;">
                                             <div>
@@ -222,7 +207,7 @@
                                             </div>
 
                                             <div class="m-t-20" style="text-align: justify;">
-                                            <span style="color: #000;">
+                                            <span style="color: #fff;">
                                               A Prime Drink está mudando a forma do consumo de bebidas.
                                                 Com mercador consolidado e sucesso nas vendas, em dois anos ampliamos nossa abrangência e distribuidores.
                                                 Atualmente com atuação efetiva em três estados, os planos de expansâo em território nacional estão cada ves mais presentes na nossa realidade.
@@ -232,20 +217,6 @@
                                         </div>
                                     </div>
                                 </div>
-
-                                <a class="left carousel-control"
-                                   href="http://wemoga-001-site42.ftempurl.com/#myCarousel" role="button"
-                                   data-slide="prev">
-                                    <span class="fa fa-angle-left" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-
-                                <a class="right carousel-control"
-                                   href="http://wemoga-001-site42.ftempurl.com/#myCarousel" role="button"
-                                   data-slide="next">
-                                    <span class="fa fa-angle-right" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
                             </div>
                         </div>
                     </div>
@@ -286,14 +257,7 @@
                             </div>
                             <div id="collapseOne" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                    richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
-                                    brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
-                                    aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
-                                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
-                                    ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
-                                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
-                                    accusamus labore sustainable VHS.
+
                                 </div>
                             </div>
                         </div>
@@ -310,14 +274,7 @@
 
                             <div id="collapseTwo" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                    richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
-                                    brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
-                                    aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
-                                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
-                                    ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
-                                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
-                                    accusamus labore sustainable VHS.
+
                                 </div>
                             </div>
                         </div>
@@ -334,14 +291,7 @@
 
                             <div id="collapseThree" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                    richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
-                                    brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
-                                    aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
-                                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
-                                    ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
-                                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
-                                    accusamus labore sustainable VHS.
+
                                 </div>
                             </div>
                         </div>
@@ -358,14 +308,7 @@
 
                             <div id="collapseFor" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                    richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
-                                    brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
-                                    aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
-                                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
-                                    ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
-                                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
-                                    accusamus labore sustainable VHS.
+
                                 </div>
                             </div>
                         </div>
@@ -382,14 +325,7 @@
 
                             <div id="collapseFive" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                    richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
-                                    brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
-                                    aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
-                                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
-                                    ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
-                                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
-                                    accusamus labore sustainable VHS.
+
                                 </div>
                             </div>
                         </div>
