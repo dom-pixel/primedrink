@@ -58,6 +58,7 @@ class LandingPageController extends Controller
             return redirect()->back()->with('error', 'Ocorreu um erro com sua soliticação, tente novamente mais tarde!');
         }
 
-        return redirect()->route('landingPage')->with('success', 'Seu cadastro foi concluido com sucesso!');
+        // return redirect()->route('landingPage')->with('success', 'Seu cadastro foi concluido com sucesso!');
+        return view('form-end');
     }
 }
