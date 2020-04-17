@@ -44,7 +44,7 @@
                             <br> <br>
 
                             <span class="text-footer-2">
-                            +55 11 94795-0216
+                          {{--  +55 11 94795-0216--}}
                         </span>
                         </div>
                     </div>
@@ -77,19 +77,23 @@
 
                             <ul style="padding: 0; list-style: none; display: inline; margin-left: 15px;">
                                 <li style="display: inline;">
-                                    <img class="imgs-socials-footer" style="" src="{{asset('images/013.png')}}">
+                                    <a href="https://www.facebook.com/primedrinkoficial" target="_blank"><img
+                                            class="imgs-socials-footer" style="" src="{{asset('images/013.png')}}"></a>
                                 </li>
 
-                                <li style="display: inline;">
-                                    <img class="imgs-socials-footer" style="" src="{{asset('images/012.png')}}">
-                                </li>
+                                {{--  <li style="display: inline;">
+                                      <img class="imgs-socials-footer" style="" src="{{asset('images/012.png')}}">
+                                  </li>
+
+                                  <li style="display: inline;">
+                                      <img class="imgs-socials-footer" style="" src="{{asset('images/011.png')}}">
+                                  </li>--}}
 
                                 <li style="display: inline;">
-                                    <img class="imgs-socials-footer" style="" src="{{asset('images/011.png')}}">
-                                </li>
-
-                                <li style="display: inline;">
-                                    <img class="imgs-socials-footer" style="" src="{{asset('images/007.png')}}">
+                                    <a href="https://www.instagram.com/primedrinkoficial" target="_blank"><img
+                                            class="imgs-socials-footer"
+                                            style=""
+                                            src="{{asset('images/007.png')}}"></a>
                                 </li>
                             </ul>
                         </div>
@@ -142,11 +146,13 @@
                             <div class="m-t-30">
                                 <div>
                                 <span class="text-footer-info">
+                                    Para ser um parceiro Prime Drink é preciso um Computador para monitorar pedidos;
                                 </span>
                                 </div>
 
                                 <div>
                                 <span class="text-footer-info">
+                                    Manter cardápio e preços atualizados e ter comprometimento com Contrato de Parceria Comercial entre Distribuidor e Prime Drink.
                                 </span>
                                 </div>
 
