@@ -197,30 +197,94 @@
                      style="padding: 0px; visibility: visible; animation-duration: 1s; animation-delay: 0.1s;">
                     <div class="module">
                         <div class="blog-image">
-                            <div class=" slide" data-ride="">
-                                <div class="inner" role="listbox">
+                            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner" role="listbox">
                                     <div class="item active">
                                         <div style="max-width: 380px; margin: auto;">
                                             <div>
                                                 <img style="width: 40px; display: inline;"
                                                      src="{{asset('images/004.png')}}">
 
-                                                <span class="text-info-visao">
-                                                Quem Somos
+                                                <span class="text-info-visao" style="color: #000;">
+                                                MISSÃO
                                             </span>
                                             </div>
 
                                             <div class="m-t-20" style="text-align: justify;">
-                                            <span style="color: #fff;">
-                                              A Prime Drink está mudando a forma do consumo de bebidas.
-                                                Com mercador consolidado e sucesso nas vendas, em dois anos ampliamos nossa abrangência e distribuidores.
-                                                Atualmente com atuação efetiva em três estados, os planos de expansâo em território nacional estão cada ves mais presentes na nossa realidade.
-                                                Munidos de muita tecnologia e um time formado com os profissionais mais feras do mercado, fornecemos aos nossos parceiros e clientes diferenciais que fazem da Prime Drink única quando o assunto é segurança, rapidez, conforto e, claro, bebidas.
+                                            <span style="color: #000;">
+                                                A Prime Drink está mudando a forma de consumir bebidas.
+                                                <br/>
+                                                <br/>
+                                                Nossa logística de atuação está estruturada para levar até nossos clientes os mais variados tipos de bebidas.
+                                                <br/>
+                                                <br/>
+                                                Fornecemos aos nossos parceiros e clientes diferenciais que fazem da Prime Drink única quando o assunto é segurança, rapidez, conforto e, claro, bebidas.
+                                            </span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="item">
+                                        <div style="max-width: 380px; margin: auto;">
+                                            <div>
+                                                <img style="width: 40px; display: inline;"
+                                                     src="{{asset('images/004.png')}}">
+
+                                                <span class="text-info-visao" style="color: #000;">
+                                                VISÃO
+                                            </span>
+                                            </div>
+
+                                            <div class="m-t-20" style="text-align: justify;">
+                                            <span style="color: #000;">
+                                                Com mercado consolidado e sucesso nas vendas, em dois anos ampliamos nossa abrangência e distribuidores.
+                                                <br/>
+                                                <br/>
+                                                Atualmente com atuação efetiva em três estados, os planos de expansão em território nacional estão cada vez mais presentes na nossa realidade.
+                                            </span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="item">
+                                        <div style="max-width: 380px; margin: auto;">
+                                            <div>
+                                                <img style="width: 40px; display: inline;"
+                                                     src="{{asset('images/004.png')}}">
+
+                                                <span class="text-info-visao" style="color: #000;">
+                                                VALORES
+                                            </span>
+                                            </div>
+
+                                            <div class="m-t-20" style="text-align: justify;">
+                                            <span style="color: #000;">
+                                                <b>Segurança</b> - um dos carros chefes da Prime Drink, oferecer um serviço de qualidade a nossos parceiros e clientes é essencial para mover nossa empresa.
+                                                <br/>
+                                                <br/>
+                                                <b>Responsabilidade</b> - com a Prime Drink você pode consumir sua bebida preferida sem precisar sair de casa, você colabora com a redução de acidentes e, acima de tudo, preserva vidas.
+                                                 <br/>
+                                                 <br/>
+                                                <b>Comprometimento</b> - com nossa equipe, parceiros e clientes. A Prime Drink evolui diariamente para cumprir o propósito do nosso negócio, ser simples, fácil e seguro.
                                             </span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+
+                                <a class="left carousel-control"
+                                   href="#myCarousel" role="button"
+                                   data-slide="prev">
+                                    <span class="fa fa-angle-left" aria-hidden="true" style="color: #000;"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+
+                                <a class="right carousel-control"
+                                   href="#myCarousel" role="button"
+                                   data-slide="next">
+                                    <span class="fa fa-angle-right" aria-hidden="true" style="color: #000;"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -254,7 +318,7 @@
                             <div class="panel-heading">
                                 <h4 class="panel-title panel-title-questions">
                                     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
-                                       href="http://wemoga-001-site42.ftempurl.com/#collapseOne">
+                                       href="#collapseOne">
                                         Eu Pago alguma coisa para cadastrar na Prime Drink?
                                     </a>
                                 </h4>
@@ -274,7 +338,7 @@
                             <div class="panel-heading">
                                 <h4 class="panel-title panel-title-questions">
                                     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
-                                       href="http://wemoga-001-site42.ftempurl.com/#collapseTwo">
+                                       href="#collapseTwo">
                                         Como me cadastro e o que preciso para me cadastrar?
                                     </a>
                                 </h4>
@@ -298,7 +362,7 @@
                             <div class="panel-heading">
                                 <h4 class="panel-title panel-title-questions">
                                     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
-                                       href="http://wemoga-001-site42.ftempurl.com/#collapseThree">
+                                       href="#collapseThree">
                                         Tem alguma fidelidade ao me cadastrar?
                                     </a>
                                 </h4>
@@ -319,7 +383,7 @@
                             <div class="panel-heading">
                                 <h4 class="panel-title panel-title-questions">
                                     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
-                                       href="http://wemoga-001-site42.ftempurl.com/#collapseFor">
+                                       href="#collapseFor">
                                         Como eu recebo meu dinheiro na Prime Drink?
                                     </a>
                                 </h4>
@@ -337,7 +401,7 @@
                             <div class="panel-heading">
                                 <h4 class="panel-title panel-title-questions">
                                     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
-                                       href="http://wemoga-001-site42.ftempurl.com/#collapseFive">
+                                       href="#collapseFive">
                                         Quem é o responsável pelas entregas?
                                     </a>
                                 </h4>
