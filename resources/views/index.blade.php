@@ -108,13 +108,15 @@
 
                                     <div class="m-t-50">
                                     <span class="text-info-prime-1">
-                                        CADASTRO
+                                        GANHE MAIS
                                     </span>
                                     </div>
 
                                     <div class="m-t-20">
                                     <span class="text-info-prime-2">
-                                       Rápido, fácil e seguro. Você envia suas informações e um de nossos especialistas entra em contato com você!
+                                       Com a Prime Drink é possível aumentar o volume de suas vendas, gerando ainda mais lucro para seu negócio.
+                                       <br/>
+                                       <br/>
                                     </span>
                                     </div>
 
@@ -132,13 +134,13 @@
 
                                     <div class="m-t-50">
                                     <span class="text-info-prime-1">
-                                        Ativação
+                                        LOGÍSTICA DE ENTREGA
                                     </span>
                                     </div>
 
                                     <div class="m-t-20">
                                     <span class="text-info-prime-2">
-                                       Você tem sua loja vendendo em menos de 24h. É só seguir todas as nossas dicas para configurar sua loja na Prime Drink.
+                                       Você não precisa de motoboy próprio. Disponibilizamos um sistema inteligente de logística com os maiores players do mercado
                                     </span>
                                     </div>
 
@@ -156,13 +158,15 @@
 
                                     <div class="m-t-50">
                                     <span class="text-info-prime-1">
-                                        Vendas
+                                        VISIBILIDADE
                                     </span>
                                     </div>
 
                                     <div class="m-t-20">
                                     <span class="text-info-prime-2">
-                                        Aumente o seu volume de vendas em até 30% através de um canal inovador.
+                                        Com nosso aplicativo é possível atrair novos clientes na sua região de atuação e garantir mais visibilidade ao seu negócio.
+                                      <br/>
+                                       <br/>
                                     </span>
                                     </div>
 
