@@ -1,4 +1,4 @@
-@extends('layouts.web.master')
+@extends('layouts.web.master-socio')
 
 @section('content')
     <section class="section" id="section-010">
@@ -79,11 +79,5 @@
         </div>
     </section>
 
-    <section class="section" id="section-011">
-        <div class="container">
-            <div class="row">
-
-            </div>
-        </div>
-    </section>
+    <img style="width: 100%;" src="{{asset('images/26.png')}}">
 @endsection
