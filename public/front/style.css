@@ -5661,6 +5661,20 @@ body::-webkit-scrollbar-thumb {
     padding-bottom: 30px;
 }
 
+#section-010 {
+    background-image: url(../images/25.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% auto;
+}
+
+#section-011 {
+    background-image: url(../images/26.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% auto;
+}
+
 .content-form-home {
     background: #fff;
     padding: 30px 15px;
