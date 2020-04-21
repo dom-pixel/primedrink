@@ -30,6 +30,44 @@
 
 
     <section class="section" id="section-012">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <form action="{{ route('sendRegisterSubscription') }}" method="POST" data-toggle="validator"
+                          data-focus="false">
+                        @csrf
+                        <div class="content-form-home">
+                            <div>
+                                <span class="text-form-01">Receba informações sobre o maior delivery de bebidas do mundo!</span>
+                            </div>
+                            <div class="m-t-10">
+                                <span class="text-form-02">se inscreve e receba novidades do mercado de delivery!</span>
+                            </div>
+                            <div class="m-t-40">
+                                <input class="form-control" type="email" name="email"
+                                       placeholder="Insira seu e-mail aqui" required>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="row m-t-30" style="padding-top: 15px;">
+                <div class="col-md-12">
+                    <div>
+                        <span class="text-bottom-footer" style="display:none;">
+                            *Percentual médio de aumento do faturamento mensal das Distribuidoras.
+                        </span>
+                    </div>
+
+                    <div class="m-t-5">
+                     <span class="text-bottom-footer" style="display:none;">
+                        A Prime Drink não garante o aumento de 50% (cinquenta por cento) do faturamento mensal das Distribuidoras que se cadastrarem na plataforma.
+                    </span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 </div>
 
