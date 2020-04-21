@@ -1,5 +1,9 @@
 @extends('layouts.web.master-socio')
 
+@section('css')
+    <!-- Styles -->
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+@endsection
 @section('content')
     <section class="section" id="section-010">
         <div class="container">
