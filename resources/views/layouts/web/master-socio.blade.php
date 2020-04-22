@@ -65,12 +65,14 @@
                 <div class="col-md-12">
                     <div>
                         <img style="height: 50px; float: left; margin-top: 5px;" src="{{asset('images/prime.png')}}">
+                        <img style="height: 20px; float: left; margin-top: 17px; margin-left: 5px;"
+                             src="{{asset('images/socio.png')}}">
                     </div>
 
-                    <div class="m-t-20" style="text-align: center;">
-                     <span class="text-bottom-footer" style="color:#000;">
-                       Todos os direitos reservados a Prime Drink Company
-                    </span>
+                    <div class="m-t-20">
+                        <span class="text-bottom-footer" style="color:#000;">
+                            Todos os direitos reservados a Prime Drink Company
+                        </span>
                     </div>
                 </div>
             </div>
