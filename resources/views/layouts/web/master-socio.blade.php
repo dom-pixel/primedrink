@@ -53,7 +53,8 @@
             </div>
 
             <a href="https://www.facebook.com/primedrinkoficial" target="_blank"><img
-                    class="imgs-socials-footer" style="float: right; width: 30px; height: 30px; margin-top: 5px;" src="{{asset('images/face.png')}}"></a>
+                    class="imgs-socials-footer" style="float: right; width: 30px; height: 30px; margin-top: 5px;"
+                    src="{{asset('images/face.png')}}"></a>
 
             <a href="https://www.instagram.com/primedrinkoficial" target="_blank"><img
                     class="imgs-socials-footer"
@@ -66,9 +67,9 @@
                         <img style="height: 50px; float: left; margin-top: 5px;" src="{{asset('images/prime.png')}}">
                     </div>
 
-                    <div class="m-t-5">
-                     <span class="text-bottom-footer" style="display: none;">
-                        A Prime Drink não garante o aumento de 50% (cinquenta por cento) do faturamento mensal das Distribuidoras que se cadastrarem na plataforma.
+                    <div class="m-t-20" style="text-align: center;">
+                     <span class="text-bottom-footer" style="color:#000;">
+                       Todos os direitos reservados a Prime Drink Company
                     </span>
                     </div>
                 </div>
