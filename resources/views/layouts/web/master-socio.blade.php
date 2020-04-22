@@ -60,6 +60,11 @@
                     class="imgs-socials-footer"
                     style="float: right; width: 30px; height: 30px; margin-top: 5px;"
                     src="{{asset('images/insta.png')}}"></a>
+            <a href="https://www.instagram.com/primedrinkoficial"
+               target="_blank"><img
+                    class="imgs-socials-footer"
+                    style="float: right; width: 30px; height: 30px; margin-top: 5px;"
+                    src="{{asset('images/whats2.png')}}"></a>
 
             <div class="row m-t-20" style="border-top: 1px solid #4a4a4a; margin-top: 40px">
                 <div class="col-md-12">
