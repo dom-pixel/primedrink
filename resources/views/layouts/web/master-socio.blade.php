@@ -52,7 +52,15 @@
                 </div>
             </div>
 
-            <div class="row m-t-20" style="border-top: 1px solid #4a4a4a;">
+            <a href="https://www.facebook.com/primedrinkoficial" target="_blank"><img
+                    class="imgs-socials-footer" style="float: right; width: 30px; height: 30px; margin-top: 5px;" src="{{asset('images/face.png')}}"></a>
+
+            <a href="https://www.instagram.com/primedrinkoficial" target="_blank"><img
+                    class="imgs-socials-footer"
+                    style="float: right; width: 30px; height: 30px; margin-top: 5px;"
+                    src="{{asset('images/insta.png')}}"></a>
+
+            <div class="row m-t-20" style="border-top: 1px solid #4a4a4a; margin-top: 40px">
                 <div class="col-md-12">
                     <div>
                         <img style="height: 50px; float: left; margin-top: 5px;" src="{{asset('images/prime.png')}}">

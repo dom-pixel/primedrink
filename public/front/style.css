@@ -5637,7 +5637,7 @@ body::-webkit-scrollbar-thumb {
 
 #section-012 {
     background-image: url(../images/teste3.png);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: center top;
     background-size: 100% auto;
 }
