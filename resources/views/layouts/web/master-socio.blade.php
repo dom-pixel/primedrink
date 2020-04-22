@@ -52,16 +52,14 @@
                 </div>
             </div>
 
-            <div class="row m-t-30" style="padding-top: 15px;">
+            <div class="row m-t-20" style="border-top: 1px solid #4a4a4a;">
                 <div class="col-md-12">
                     <div>
-                        <span class="text-bottom-footer" style="display:none;">
-                            *Percentual médio de aumento do faturamento mensal das Distribuidoras.
-                        </span>
+                        <img style="height: 50px; float: left; margin-top: 5px;" src="{{asset('images/prime.png')}}">
                     </div>
 
                     <div class="m-t-5">
-                     <span class="text-bottom-footer" style="display:none;">
+                     <span class="text-bottom-footer" style="display: none;">
                         A Prime Drink não garante o aumento de 50% (cinquenta por cento) do faturamento mensal das Distribuidoras que se cadastrarem na plataforma.
                     </span>
                     </div>
