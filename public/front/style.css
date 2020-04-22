@@ -5630,8 +5630,10 @@ body::-webkit-scrollbar-thumb {
     background-size: 100% auto;
 }
 
-/*#section-011 {
-}*/
+#section-011 {
+    background: #fafafa;
+    padding-bottom: 10px;
+}
 
 #section-012 {
     background-image: url(../images/27.png);

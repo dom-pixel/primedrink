@@ -56,5 +56,14 @@
         </div>
     </section>
 
+   {{-- <section class="section" id="section-011">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <img style="width: 100%;" src="{{asset('images/teste.png')}}">
+                </div>
+            </div>
+        </div>
+    </section>--}}
     <img style="width: 100%;" src="{{asset('images/26.png')}}">
 @endsection
