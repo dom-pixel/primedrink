@@ -77,6 +77,7 @@ class LandingPageController extends Controller
         $subscription->city = $request->city;
         $subscription->state = $request->state;
         $subscription->city_of_interest = $request->city_of_interest;
+        $subscription->save();
 
         $data = [
             'toName' => $request->name,
