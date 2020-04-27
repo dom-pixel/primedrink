@@ -15,6 +15,29 @@
                           data-focus="false">
                         @csrf
                         <div class="content-form-socio">
+                            <!-- Mensagem de sucesso no cadastro e envio de e-mail -->
+                            @if ($message = Session::get('success'))
+                                <div class="alert alert-info alert-block">
+                                    <button type="button" class="close" data-dismiss="alert">×</button>
+                                    <strong>{{ $message }}</strong>
+                                </div>
+                            @endif
+                        <!-- Mensagem de erro do envio de e-mail -->
+                            @if ($message = Session::get('error'))
+                                <div class="alert alert-danger alert-block">
+                                    <button type="button" class="close" data-dismiss="alert">×</button>
+                                    <strong>{{ $message }}</strong>
+                                </div>
+                            @endif
+                        <!-- Mensagem de erro do Subscription Request -->
+                            @if($errors->all())
+                                @foreach($errors->all() as $error)
+                                    <div class="alert alert-danger alert-block">
+                                        <button type="button" class="close" data-dismiss="alert">×</button>
+                                        <strong>{{ $error }}</strong>
+                                    </div>
+                                @endforeach
+                            @endif
                             <span class="text-form-socio-01">Seja um Sócio Operador!</span>
                             <div class="m-t-40">
                                 <input class="form-control" type="text" name="name"
