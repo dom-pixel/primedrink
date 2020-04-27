@@ -15,9 +15,9 @@ class AlterTableSubscriptionsPartner extends Migration
     {
         Schema::table('subscriptions', function (Blueprint $table) {
             $table->string('surname')->nullable();
-            $table->boolean('city')->nullable();
-            $table->boolean('state')->nullable();
-            $table->boolean('city_of_interest')->nullable();
+            $table->string('city')->nullable();
+            $table->string('state')->nullable();
+            $table->string('city_of_interest')->nullable();
         });
     }
 
