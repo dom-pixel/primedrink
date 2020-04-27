@@ -27,6 +27,5 @@ Route::get('/restaurante/{id}', 'HomeController@show')->name('info');
 Route::get('/cadastro', 'Web\LandingPageController@form')->name('showForm');
 
 Route::post('/registro', 'Web\LandingPageController@register')->name('sendRegister');
-Route::get('/teste', function () {
-    return view('socio');
-});
+Route::get('/minhaprimedrink', 'Web\LandingPageController@socio')->name('socio');
+Route::post('/minhaprimedrink/register', 'Web\LandingPageController@socioRegister')->name('socioRegister');

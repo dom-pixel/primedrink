@@ -61,4 +61,14 @@ class LandingPageController extends Controller
         // return redirect()->route('landingPage')->with('success', 'Seu cadastro foi concluido com sucesso!');
         return view('form-end');
     }
+
+    public function socio()
+    {
+        return view('socio');
+    }
+
+    public function socioRegister(Request $request)
+    {
+
+    }
 }
