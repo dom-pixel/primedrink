@@ -69,6 +69,25 @@ class LandingPageController extends Controller
 
     public function socioRegister(Request $request)
     {
+        $subscription = new Subscription();
+        $subscription->name = $request->name;
+        $subscription->surname = $request->surname;
+        $subscription->email = $request->email;
+        $subscription->cell = $request->cell;
+        $subscription->city = $request->city;
+        $subscription->state = $request->state;
+        $subscription->city_of_interest = $request->city_of_interest;
 
+        $data = [
+            'toName' => $request->name,
+            'toEmail' => $request->email
+        ];
+
+        try {
+            Mail::to($request->email)->send(new SendMailable($data));
+        } catch (\Exception $e) {
+            return redirect()->back()->with('error', 'Ocorreu um erro com sua soliticação, tente novamente mais tarde!');
+        }
+        return redirect()->back()->with('success', 'Seu cadastro foi concluido com sucesso!');
     }
 }

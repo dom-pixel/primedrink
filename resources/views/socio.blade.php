@@ -11,7 +11,7 @@
                 <div class="col-md-7 col-sm-7"></div>
 
                 <div class="col-md-5 col-sm-5">
-                    <form action="{{ route('sendRegisterSubscription') }}" method="POST" data-toggle="validator"
+                    <form action="{{ route('socioRegister') }}" method="POST" data-toggle="validator"
                           data-focus="false">
                         @csrf
                         <div class="content-form-socio">
@@ -25,7 +25,7 @@
                                        placeholder="Sobrenome" required>
                             </div>
                             <div class="m-t-10">
-                                <input class="form-control celular" type="email" name="email"
+                                <input class="form-control" type="email" name="email"
                                        placeholder="E-mail" required>
                             </div>
                             <div class="m-t-10">
@@ -33,16 +33,16 @@
                                        placeholder="Telefone" required>
                             </div>
                             <div class="m-t-10">
-                                <input class="form-control celular" type="text" name="cell"
-                                       placeholder="Selecione um estado" required>
+                                <input class="form-control" type="text" name="state"
+                                       placeholder="Digite o estado em que você mora" required>
                             </div>
                             <div class="m-t-10">
-                                <input class="form-control celular" type="text" name="cell"
-                                       placeholder="Cidade onde você mora" required>
+                                <input class="form-control" type="text" name="city"
+                                       placeholder="Digite a cidade onde você mora" required>
                             </div>
                             <div class="m-t-10">
-                                <input class="form-control celular" type="text" name="cell"
-                                       placeholder="Cidade de interesse" required>
+                                <input class="form-control" type="text" name="city_of_interest"
+                                       placeholder="Qual a sua cidade de interesse?" required>
                             </div>
                             <div class="m-t-10">
                                 <button class="btn-lg btn-yellow btn-block" type="submit">

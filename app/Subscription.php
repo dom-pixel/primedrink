@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Subscription extends Model
 {
     protected $fillable = [
-        'email', 'name', 'status', 'cell'
+        'email', 'name', 'status', 'cell', 'city', 'state', 'city_of_interest', 'surname'
     ];
 
     public function setCellAttribute($value)
