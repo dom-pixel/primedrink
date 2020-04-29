@@ -41,6 +41,6 @@ class HomeController extends Controller
     public function showPartner($id)
     {
         $subscription = Subscription::find($id);
-        return view('restaurant', compact('subscription'));
+        return view('partner', compact('subscription'));
     }
 }
