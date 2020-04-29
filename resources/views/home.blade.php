@@ -33,7 +33,7 @@
                                     <td>{{$subscription->surname}}</td>
                                     <td>{{$subscription->email}}</td>
                                     <td>{{$subscription->cell}}</td>
-                                    <td>{{$subscription->city}}/ {{$user->state}}</td>
+                                    <td>{{$subscription->city}}/ {{$subscription->state}}</td>
                                     <td>{{$subscription->city_of_interest}}</td>
                                     <td>
                                         <a href="{{route('infoPartner', ['id'=>$subscription->id])}}">Sobre
