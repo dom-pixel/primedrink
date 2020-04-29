@@ -5,7 +5,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-12">
                 <div class="card">
-                    <div class="card-header">Dashboard</div>
+                    <div class="card-header">Sócios Prime Drink</div>
                     <div class="card-body">
                         @if (session('status'))
                             <div class="alert alert-success" role="alert">
@@ -37,7 +37,7 @@
                                     <td>{{$subscription->city_of_interest}}</td>
                                     <td>
                                         <a href="{{route('infoPartner', ['id'=>$subscription->id])}}">Sobre
-                                            o local</a>
+                                            o interessado</a>
                                     </td>
                                 </tr>
                             @endforeach
@@ -49,11 +49,11 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container mt-5">
         <div class="row justify-content-center">
             <div class="col-lg-12">
                 <div class="card">
-                    <div class="card-header">Dashboard</div>
+                    <div class="card-header">Estabelecimentos/Distribuidoras</div>
                     <div class="card-body">
                         @if (session('status'))
                             <div class="alert alert-success" role="alert">
