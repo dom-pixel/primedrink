@@ -24,6 +24,7 @@ Route::get('/logout', 'Auth\LoginController@logout')->name('logout');
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/restaurante/{id}', 'HomeController@show')->name('info');
+Route::get('/partner/{id}', 'HomeController@showPartner')->name('infoPartner');
 Route::get('/cadastro', 'Web\LandingPageController@form')->name('showForm');
 
 Route::post('/registro', 'Web\LandingPageController@register')->name('sendRegister');

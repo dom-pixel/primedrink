@@ -28,12 +28,19 @@ class HomeController extends Controller
     {
         /*  $subscriptions = Subscription::all();*/
         $users = User::where('client', '1')->get();
-        return view('home', compact('users'));
+        $subscriptions = Subscription::all();
+        return view('home', compact('users', 'subscriptions'));
     }
 
     public function show($id)
     {
         $restaurant = Restaurant::find($id);
         return view('restaurant', compact('restaurant'));
+    }
+
+    public function showPartner($id)
+    {
+        $subscription = Subscription::find($id);
+        return view('restaurant', compact('subscription'));
     }
 }
