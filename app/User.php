@@ -24,7 +24,7 @@ class User extends Authenticatable
         'admin',
         'client'
     ];
-
+    
     /**
      * The attributes that should be hidden for arrays.
      *
