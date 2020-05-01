@@ -96,9 +96,13 @@
                                             src="{{asset('images/007.png')}}"></a>
                                 </li>
                             </ul>
+
+                            <div class="m-t-15">
+                                <a href="https://dompixel.dev" target="_blank"><img
+                                        width="160"
+                                        src="{{asset('images/logofull.png')}}"></a>
+                            </div>
                         </div>
-
-
                     </div>
                 </div>
 
