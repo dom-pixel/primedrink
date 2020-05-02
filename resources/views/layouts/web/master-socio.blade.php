@@ -74,7 +74,13 @@
                              src="{{asset('images/socio.png')}}">
                     </div>
 
-                    <div class="m-t-20">
+                    <div>
+                        <a href="https://dompixel.dev" target="_blank"><img
+                                width="160"
+                                style="float: left; margin-top: 10px; margin-left: 5px;"
+                                src="{{asset('images/logofull.png')}}"></a>
+                    </div>
+                    <div class="m-t-50">
                         <span class="text-bottom-footer" style="color:#000;">
                             Todos os direitos reservados a Prime Drink Company
                         </span>
