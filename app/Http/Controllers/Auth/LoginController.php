@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Auth;
 use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
 class LoginController extends Controller
@@ -43,6 +44,20 @@ class LoginController extends Controller
     {
         Auth::logout();
         return redirect('login');
+    }
+
+    public function login(Request $request)
+    {
+        $credentials = [
+            'email' => $request->email,
+            'password' => $request->password,
+            'admin' => 1
+        ];
+
+        if (! Auth::attempt($credentials)) {
+            return redirect()->back()->with('error', 'Verifique seus dados! Caso o erro persista entre em contato com o administrador do sistema!');
+        }
+        return redirect()->to($this->redirectTo);
     }
 
 }
