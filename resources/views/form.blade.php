@@ -53,7 +53,7 @@
 
                                 <div class="m-t-20">
                                     <div class="m-b-10">CEP</div>
-                                    <input class="form-control required cep"  id="cep" type="text" name="zipcode"
+                                    <input class="form-control required cep" id="cep" type="text" name="zipcode"
                                            placeholder="Digite o CEP"
                                            required>
                                 </div>
@@ -131,23 +131,14 @@
                                         <span class="text-form-00">PRIME PLUS</span>
                                     </div>
                                     <br/>
-                                    <p class="m-b-20"><i class="fa fa-check"></i> Entrega realizada atráves
-                                        dos
-                                        nossos parceiros de
-                                        logística.</p>
-                                    <p class="m-b-20"><i class="fa fa-check"></i> Não possuimos fidelidade,
-                                        cancele o plano quando
-                                        desejar.</p>
-                                    <p class="m-b-20"><i class="fa fa-check"></i> 15% sobre o valor dos
-                                        pedidos,
-                                        incluindo taxa de
-                                        entrega. (Mais 3,7% para
-                                        pagamento on-line)</p>
-                                    <p class="m-b-20"><i class="fa fa-check"></i> Mensalidade de R$150 por
-                                        mês,
-                                        apenas se você faturar
-                                        mais que R$5.000,00
-                                        mensais.</p>
+                                    <p class="m-b-20"><i class="fa fa-check"></i> Entrega realizada através dos nossos
+                                        parceiros de logística.</p>
+                                    <p class="m-b-20"><i class="fa fa-check"></i> Não possuímos fidelidade, cancele o
+                                        plano quando desejar.</p>
+                                    <p class="m-b-20"><i class="fa fa-check"></i> 10% sobre o valor dos pedidos,
+                                        incluindo taxa de entrega. (Mais 3,7% para pagamento on-line).</p>
+                                    <p class="m-b-20"><i class="fa fa-check"></i> Atualmente não cobramos mensalidade
+                                        para utilizar a nossa plataforma.</p>
                                     <input type="hidden" name="plan_id" value="1"/>
                                 </div>
                             </div>

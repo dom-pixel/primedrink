@@ -325,11 +325,11 @@
                             </div>
                             <div id="collapseOne" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    A Prime Drink possui um plano com mensalidade. Lembrando que a cobrança da
-                                    mensalidade é realizada somente caso a distribuidora não atinja o valor de vendas de
-                                    R$5000,00. É cobrado o valor de R$150 e a taxa de 15% sobra o valor de cada pedido.
-                                    Os pedidos com pagamento on-line pelo app têm desconto de 3,5% referente a taxa de
-                                    transação cobrada pelos cartões.
+                                    A Prime Drink possui um plano atualmente isento de mensalidade. É cobrado somente
+                                    10% sobre o valor de cada pedido realizado na plataforma. Os pedidos com pagamento
+                                    on-line pelo app têm desconto de 3,7% referente a taxa de transação cobrada pelos
+                                    cartões. Lembrando que a taxa de 10% por pedido é realizada uma vez a cada mês de
+                                    acordo com a negociação comercial.
                                 </div>
                             </div>
                         </div>
