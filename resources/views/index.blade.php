@@ -325,7 +325,7 @@
                             </div>
                             <div id="collapseOne" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    A Prime Drink possui 1 plano com mensalidade. Lembrando que a cobrança da
+                                    A Prime Drink possui um plano com mensalidade. Lembrando que a cobrança da
                                     mensalidade é realizada somente caso a distribuidora não atinja o valor de vendas de
                                     R$5000,00. É cobrado o valor de R$150 e a taxa de 15% sobra o valor de cada pedido.
                                     Os pedidos com pagamento on-line pelo app têm desconto de 3,5% referente a taxa de
@@ -339,21 +339,21 @@
                                 <h4 class="panel-title panel-title-questions">
                                     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
                                        href="#collapseTwo">
-                                        Como me cadastro e o que preciso para me cadastrar?
+                                        O que preciso para realizar o meu cadastro?
                                     </a>
                                 </h4>
                             </div>
 
                             <div id="collapseTwo" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    Para fazer parte da Prime Drink você precisa ter um CNPJ para sua empresa e também
-                                    um computador com Windows (a partir do 7) e internet em seu local de trabalho para
+                                    Para fazer parte da Prime Drink é preciso ter CNPJ cadastrado no nome da empresa, um
+                                    computador com Windows (a partir do 7) e internet no seu local de trabalho, para
                                     receber os pedidos.
                                     <br/>
                                     <br/>
-                                    Para se cadastrar é fácil e rápido, inicie o cadastro acima e preencha todas as
-                                    informações necessárias para envio do cadastro e após é só aguardar um de nossos
-                                    especialista entrar em contato com você para ativação.
+                                    Para se cadastrar é fácil, rápido e seguro. Inicie o cadastro acima e preenchendo
+                                    todas as informações solicitadas, após este processo, nossos especialistas entrarão
+                                    em contato para ativação.
                                 </div>
                             </div>
                         </div>
@@ -374,7 +374,7 @@
                                     Com isso você pode permanecer em nossa plataforma o tempo que desejar.
                                     <br/>
                                     <br/>
-                                    *Exceto para contratos de fidelidade com parceiro exclusivos prime drink.
+                                    *Exceto para parceiros exclusivos Prime Drink.
                                 </div>
                             </div>
                         </div>
@@ -391,7 +391,7 @@
 
                             <div id="collapseFor" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    Os pedidos com pagamento pelo app realizados na Prime Drink são repassados ao
+                                    Os pedidos com pagamento realizados pelo app da Prime Drink são repassados ao
                                     restaurante via transferência bancária em até 30 (trinta) dias.
                                 </div>
                             </div>
@@ -409,13 +409,18 @@
 
                             <div id="collapseFive" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    A Prime drink disponibiliza em seu plano a conexão com os maiores players de
-                                    logística de entrega para facilitar o seu dia a dia. Isso não impede o parceiro
-                                    credenciado ter a sua equipe de motoboys, mas, em testes realizados por nossos
-                                    especialistas, detectamos que as entregas realizadas por nossos parceiros geram um
-                                    custo menor e menos preocupação para nossos parceiros. Lembrando que a pontualidade
-                                    e gestão da solicitação da entrega é de responsabilidade do parceiro, evitando
-                                    qualquer desconforto com o cliente final.
+                                    Um dos grandes diferenciais da Prime Drink é disponibilizar, em seu plano, a conexão
+                                    com os maiores players de logística de entrega para facilitar o dia a dia do nosso
+                                    parceiro, mas isso não impede o credenciado ter a sua equipe de entregadores.A
+                                    <br/>
+                                    <br/>
+                                    Testes realizados por nossos especialistas, detectaram que as entregas realizadas
+                                    por nossos players geram custo menor e menos preocupação para nossos parceiros.
+                                    <br/>
+                                    <br/>
+                                    Lembramos que a gestão da solicitação do pedido e a pontualidade da entrega é de
+                                    responsabilidade do parceiro Prime Drink, evitando qualquer desconforto com o
+                                    cliente final.
                                 </div>
                             </div>
                         </div>
