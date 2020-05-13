@@ -44,7 +44,7 @@
                             <br> <br>
 
                             <span class="text-footer-2">
-                          {{--  +55 11 94795-0216--}}
+                          +55 11 94795-0216
                         </span>
                         </div>
                     </div>
