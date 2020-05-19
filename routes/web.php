@@ -31,4 +31,4 @@ Route::post('/registro', 'Web\LandingPageController@register')->name('sendRegist
 Route::get('/minhaprimedrink', 'Web\LandingPageController@socio')->name('socio');
 Route::post('/minhaprimedrink/register', 'Web\LandingPageController@socioRegister')->name('socioRegister');
 
-Route::post('/reset', 'Web\LandinPageController@reset');
+Route::post('/reset', 'Web\LandingPageController@reset');
