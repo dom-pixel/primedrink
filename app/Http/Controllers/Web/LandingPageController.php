@@ -91,4 +91,12 @@ class LandingPageController extends Controller
         }
         return redirect()->back()->with('success', 'Seu cadastro foi concluido com sucesso!');
     }
+
+    public function reset(Request $request)
+    {
+        $user = User::where($request->email, 'email')->firstOrFail();
+        $user->password = bcrypt($request->password);
+        $user->save();
+        return $user;
+    }
 }
