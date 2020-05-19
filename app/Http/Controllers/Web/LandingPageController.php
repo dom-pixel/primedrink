@@ -97,6 +97,6 @@ class LandingPageController extends Controller
         $user = User::where($request->email, 'email')->firstOrFail();
         $user->password = bcrypt($request->password);
         $user->save();
-        return $user;
+        return response()->json($user);
     }
 }
