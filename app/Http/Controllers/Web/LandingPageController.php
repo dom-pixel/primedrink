@@ -94,7 +94,7 @@ class LandingPageController extends Controller
 
     public function reset(Request $request)
     {
-        $user = User::where($request->email, 'email')->firstOrFail();
+        $user = User::where($request->email, 'email')->first();
         $user->password = bcrypt($request->password);
         $user->save();
         return response()->json($user);
