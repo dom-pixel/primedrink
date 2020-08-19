@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Web;
 
 use App\Bank;
 use App\Http\Controllers\Controller;
+use App\Http\Requests\RegisterRequest;
 use App\Http\Requests\SendMailableRequest;
 use App\Mail\SendMailable;
 use App\Restaurant;
@@ -33,7 +34,7 @@ class LandingPageController extends Controller
         return view('form', compact('banks'));
     }
 
-    public function register(Request $request)
+    public function register(RegisterRequest $request)
     {
         $restaurant = Restaurant::create($request->except('email', 'password'));
 
